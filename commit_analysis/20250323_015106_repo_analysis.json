@@ -1,0 +1,2894 @@
+{
+  "good_build": {
+    "sha": "ffdf96d",
+    "details": {
+      "sha": "ffdf96d6a5ca35af07ce8c69a02dd737b807f1de",
+      "node_id": "C_kwDOBgtdddoAKGZmZGY5NmQ2YTVjYTM1YWYwN2NlOGM2OWEwMmRkNzM3YjgwN2YxZGU",
+      "commit": {
+        "author": {
+          "name": "Gengchen Tuo",
+          "email": "gengchen.tuo@ibm.com",
+          "date": "2025-03-05T15:20:55Z"
+        },
+        "committer": {
+          "name": "Gengchen Tuo",
+          "email": "gengchen.tuo@ibm.com",
+          "date": "2025-03-12T14:27:54Z"
+        },
+        "message": "Initialize ImageReader during boot\n\nThis is to avoid being affected by a potential invalid java.home path\n\nFixes: https://github.com/eclipse-openj9/openj9/issues/21105\n\nSigned-off-by: Gengchen Tuo <gengchen.tuo@ibm.com>",
+        "tree": {
+          "sha": "0a1553101c0ac449a7c3d69a581f46a5e0332903",
+          "url": "https://api.github.com/repos/eclipse-openj9/openj9/git/trees/0a1553101c0ac449a7c3d69a581f46a5e0332903"
+        },
+        "url": "https://api.github.com/repos/eclipse-openj9/openj9/git/commits/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/eclipse-openj9/openj9/commits/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de",
+      "html_url": "https://github.com/eclipse-openj9/openj9/commit/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de",
+      "comments_url": "https://api.github.com/repos/eclipse-openj9/openj9/commits/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/comments",
+      "author": {
+        "login": "thallium",
+        "id": 20818480,
+        "node_id": "MDQ6VXNlcjIwODE4NDgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20818480?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thallium",
+        "html_url": "https://github.com/thallium",
+        "followers_url": "https://api.github.com/users/thallium/followers",
+        "following_url": "https://api.github.com/users/thallium/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thallium/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thallium/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thallium/subscriptions",
+        "organizations_url": "https://api.github.com/users/thallium/orgs",
+        "repos_url": "https://api.github.com/users/thallium/repos",
+        "events_url": "https://api.github.com/users/thallium/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thallium/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "thallium",
+        "id": 20818480,
+        "node_id": "MDQ6VXNlcjIwODE4NDgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20818480?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thallium",
+        "html_url": "https://github.com/thallium",
+        "followers_url": "https://api.github.com/users/thallium/followers",
+        "following_url": "https://api.github.com/users/thallium/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thallium/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thallium/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thallium/subscriptions",
+        "organizations_url": "https://api.github.com/users/thallium/orgs",
+        "repos_url": "https://api.github.com/users/thallium/repos",
+        "events_url": "https://api.github.com/users/thallium/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thallium/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c3059659228c2818b5dfa07ae2956b5bcabc20a1",
+          "url": "https://api.github.com/repos/eclipse-openj9/openj9/commits/c3059659228c2818b5dfa07ae2956b5bcabc20a1",
+          "html_url": "https://github.com/eclipse-openj9/openj9/commit/c3059659228c2818b5dfa07ae2956b5bcabc20a1"
+        }
+      ],
+      "stats": {
+        "total": 204,
+        "additions": 202,
+        "deletions": 2
+      },
+      "files": [
+        {
+          "sha": "95243fda5f40a884a822b8b23a4360cd46a48646",
+          "filename": "jcl/src/java.base/share/classes/java/lang/J9VMInternals.java",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 2,
+          "changes": 14,
+          "blob_url": "https://github.com/eclipse-openj9/openj9/blob/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/jcl%2Fsrc%2Fjava.base%2Fshare%2Fclasses%2Fjava%2Flang%2FJ9VMInternals.java",
+          "raw_url": "https://github.com/eclipse-openj9/openj9/raw/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/jcl%2Fsrc%2Fjava.base%2Fshare%2Fclasses%2Fjava%2Flang%2FJ9VMInternals.java",
+          "contents_url": "https://api.github.com/repos/eclipse-openj9/openj9/contents/jcl%2Fsrc%2Fjava.base%2Fshare%2Fclasses%2Fjava%2Flang%2FJ9VMInternals.java?ref=ffdf96d6a5ca35af07ce8c69a02dd737b807f1de",
+          "patch": "@@ -173,7 +173,7 @@ private static void completeInitialization() {\n \t\t\tRuntime.getRuntime().addShutdownHook(new Thread(runnable, \"CommonCleanerShutdown\", true, false, false, null)); //$NON-NLS-1$\n \t\t}\n \t\t/*[ENDIF] JAVA_SPEC_VERSION >= 9 */\n-/*[IF CRAC_SUPPORT]*/\n+\t\t/*[IF CRAC_SUPPORT]*/\n \t\tif (openj9.internal.criu.InternalCRIUSupport.isCRaCSupportEnabled()) {\n \t\t\t// export java.base/jdk.crac unconditionally\n \t\t\tJ9VMInternals.class.getModule().implAddExports(\"jdk.crac\"); //$NON-NLS-1$\n@@ -184,7 +184,17 @@ private static void completeInitialization() {\n \t\t\t\tom.get().implAddExports(\"jdk.crac.management\"); //$NON-NLS-1$\n \t\t\t}\n \t\t}\n-/*[ENDIF] CRAC_SUPPORT */\n+\t\t/*[ENDIF] CRAC_SUPPORT */\n+\t\t/*[IF (11 <= JAVA_SPEC_VERSION) & (JAVA_SPEC_VERSION <= 17)]*/\n+\t\t/* ImageReader should be initialized before main() is called to\n+\t\t * avoid being affected by a potential invalid java.home path.\n+\t\t */\n+\t\ttry {\n+\t\t\tjdk.internal.jimage.ImageReaderFactory.getImageReader();\n+\t\t} catch (java.io.UncheckedIOException e) {\n+\t\t\t// Ignored deliberately.\n+\t\t}\n+\t\t/*[ENDIF] (11 <= JAVA_SPEC_VERSION) & (JAVA_SPEC_VERSION <= 17) */\n \t}\n \n \t/**"
+        },
+        {
+          "sha": "24221d9ece78bc3f04d68690d226b633c8eb6e0c",
+          "filename": "test/functional/cmdLineTests/imageReaderInitializationTest/build.xml",
+          "status": "added",
+          "additions": 75,
+          "deletions": 0,
+          "changes": 75,
+          "blob_url": "https://github.com/eclipse-openj9/openj9/blob/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2Fbuild.xml",
+          "raw_url": "https://github.com/eclipse-openj9/openj9/raw/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2Fbuild.xml",
+          "contents_url": "https://api.github.com/repos/eclipse-openj9/openj9/contents/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2Fbuild.xml?ref=ffdf96d6a5ca35af07ce8c69a02dd737b807f1de",
+          "patch": "@@ -0,0 +1,75 @@\n+<?xml version=\"1.0\"?>\n+\n+<!--\n+Copyright IBM Corp. and others 2025\n+\n+This program and the accompanying materials are made available under\n+the terms of the Eclipse Public License 2.0 which accompanies this\n+distribution and is available at https://www.eclipse.org/legal/epl-2.0/\n+or the Apache License, Version 2.0 which accompanies this distribution and\n+is available at https://www.apache.org/licenses/LICENSE-2.0.\n+\n+This Source Code may also be made available under the following\n+Secondary Licenses when the conditions for such availability set\n+forth in the Eclipse Public License, v. 2.0 are satisfied: GNU\n+General Public License, version 2 with the GNU Classpath\n+Exception [1] and GNU General Public License, version 2 with the\n+OpenJDK Assembly Exception [2].\n+\n+[1] https://www.gnu.org/software/classpath/license.html\n+[2] https://openjdk.org/legal/assembly-exception.html\n+\n+SPDX-License-Identifier: EPL-2.0 OR Apache-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0 OR GPL-2.0-only WITH OpenJDK-assembly-exception-1.0\n+-->\n+<project name=\"ImageReader\" default=\"build\" basedir=\".\">\n+\t<taskdef resource=\"net/sf/antcontrib/antlib.xml\" />\n+\t<description>\n+\t\tBuild cmdLineTests_imageReaderInitializationTest\n+\t</description>\n+\n+\t<import file=\"${TEST_ROOT}/functional/cmdLineTests/buildTools.xml\" />\n+\n+\t<!-- set properties for this build -->\n+\t<property name=\"DEST\" value=\"${BUILD_ROOT}/functional/cmdLineTests/imageReaderInitializationTest\" />\n+\t<property name=\"src\" location=\"src\" />\n+\t<property name=\"build\" location=\"bin\" />\n+\n+\t<target name=\"init\">\n+\t\t<mkdir dir=\"${DEST}\" />\n+\t\t<mkdir dir=\"${build}\" />\n+\t</target>\n+\n+\t<target name=\"compile\" depends=\"init\" description=\"Using java ${JDK_VERSION} to compile the source\">\n+\t\t<echo>Ant version is ${ant.version}</echo>\n+\t\t<echo>============COMPILER SETTINGS============</echo>\n+\t\t<echo>===fork:                         yes</echo>\n+\t\t<echo>===executable:                   ${compiler.javac}</echo>\n+\t\t<echo>===debug:                        on</echo>\n+\t\t<echo>===destdir:                      ${DEST}</echo>\n+\t\t<javac srcdir=\"${src}\" destdir=\"${build}\" debug=\"true\" fork=\"true\" executable=\"${compiler.javac}\" includeAntRuntime=\"false\" encoding=\"ISO-8859-1\">\n+\t\t\t<src path=\"${src}\" />\n+\t\t</javac>\n+\t</target>\n+\n+\t<target name=\"dist\" depends=\"compile\" description=\"generate the distribution\">\n+\t\t<jar jarfile=\"${DEST}/imageReaderInitializationTest.jar\" filesonly=\"true\">\n+\t\t\t<fileset dir=\"${build}\" />\n+\t\t\t<fileset dir=\"${src}\" />\n+\t\t</jar>\n+\t\t<copy todir=\"${DEST}\">\n+\t\t\t<fileset dir=\"${src}/../\">\n+\t\t\t\t<include name=\"**/*.mk\" />\n+\t\t\t\t<include name=\"**/*.xml\" />\n+\t\t\t</fileset>\n+\t\t</copy>\n+\t</target>\n+\n+\t<target name=\"clean\" depends=\"dist\" description=\"clean up\">\n+\t\t<!-- Delete the ${build} directory trees -->\n+\t\t<delete dir=\"${build}\" />\n+\t</target>\n+\n+\t<target name=\"build\" depends=\"buildCmdLineTestTools\">\n+\t\t<antcall target=\"clean\" inheritall=\"true\" />\n+\t</target>\n+</project>"
+        },
+        {
+          "sha": "bb93a6003b8dc7271925189960c12e9de4ba5fdc",
+          "filename": "test/functional/cmdLineTests/imageReaderInitializationTest/imageReaderInitializationTest.xml",
+          "status": "added",
+          "additions": 33,
+          "deletions": 0,
+          "changes": 33,
+          "blob_url": "https://github.com/eclipse-openj9/openj9/blob/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2FimageReaderInitializationTest.xml",
+          "raw_url": "https://github.com/eclipse-openj9/openj9/raw/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2FimageReaderInitializationTest.xml",
+          "contents_url": "https://api.github.com/repos/eclipse-openj9/openj9/contents/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2FimageReaderInitializationTest.xml?ref=ffdf96d6a5ca35af07ce8c69a02dd737b807f1de",
+          "patch": "@@ -0,0 +1,33 @@\n+<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n+\n+<!--\n+Copyright IBM Corp. and others 2025\n+\n+This program and the accompanying materials are made available under\n+the terms of the Eclipse Public License 2.0 which accompanies this\n+distribution and is available at https://www.eclipse.org/legal/epl-2.0/\n+or the Apache License, Version 2.0 which accompanies this distribution and\n+is available at https://www.apache.org/licenses/LICENSE-2.0.\n+\n+This Source Code may also be made available under the following\n+Secondary Licenses when the conditions for such availability set\n+forth in the Eclipse Public License, v. 2.0 are satisfied: GNU\n+General Public License, version 2 with the GNU Classpath\n+Exception [1] and GNU General Public License, version 2 with the\n+OpenJDK Assembly Exception [2].\n+\n+[1] https://www.gnu.org/software/classpath/license.html\n+[2] https://openjdk.org/legal/assembly-exception.html\n+\n+SPDX-License-Identifier: EPL-2.0 OR Apache-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0 OR GPL-2.0-only WITH OpenJDK-assembly-exception-1.0\n+-->\n+\n+<!DOCTYPE suite SYSTEM \"cmdlinetester.dtd\">\n+\n+<suite id=\"ImageReader Initialization Test\" timeout=\"60\">\n+\t<test id=\"ImageReader Initialization Test\">\n+\t\t<command>$EXE$ -cp $RESJAR$ org.openj9.test.ImageReaderInitializationTest</command>\n+\t\t<output type=\"success\" caseSensitive=\"yes\" regex=\"no\">IllegalStateException</output>\n+\t\t<output type=\"failure\" caseSensitive=\"yes\" regex=\"no\">ExceptionInInitializerError</output>\n+\t</test>\n+</suite>"
+        },
+        {
+          "sha": "ff36c1a159b557049a19d84aadf551ee29de731d",
+          "filename": "test/functional/cmdLineTests/imageReaderInitializationTest/playlist.xml",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0,
+          "changes": 45,
+          "blob_url": "https://github.com/eclipse-openj9/openj9/blob/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2Fplaylist.xml",
+          "raw_url": "https://github.com/eclipse-openj9/openj9/raw/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2Fplaylist.xml",
+          "contents_url": "https://api.github.com/repos/eclipse-openj9/openj9/contents/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2Fplaylist.xml?ref=ffdf96d6a5ca35af07ce8c69a02dd737b807f1de",
+          "patch": "@@ -0,0 +1,45 @@\n+<?xml version='1.0' encoding='UTF-8'?>\n+<!--\n+Copyright IBM Corp. and others 2025\n+\n+This program and the accompanying materials are made available under\n+the terms of the Eclipse Public License 2.0 which accompanies this\n+distribution and is available at https://www.eclipse.org/legal/epl-2.0/\n+or the Apache License, Version 2.0 which accompanies this distribution and\n+is available at https://www.apache.org/licenses/LICENSE-2.0.\n+\n+This Source Code may also be made available under the following\n+Secondary Licenses when the conditions for such availability set\n+forth in the Eclipse Public License, v. 2.0 are satisfied: GNU\n+General Public License, version 2 with the GNU Classpath\n+Exception [1] and GNU General Public License, version 2 with the\n+OpenJDK Assembly Exception [2].\n+\n+[1] https://www.gnu.org/software/classpath/license.html\n+[2] https://openjdk.org/legal/assembly-exception.html\n+\n+SPDX-License-Identifier: EPL-2.0 OR Apache-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0 OR GPL-2.0-only WITH OpenJDK-assembly-exception-1.0\n+-->\n+<playlist xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"../../../TKG/playlist.xsd\">\n+\t<include>../variables.mk</include>\n+\t<test>\n+\t\t<testCaseName>cmdLineTester_imageReaderInitializationTest</testCaseName>\n+\t\t<variations>\n+\t\t\t<variation>NoOptions</variation>\n+\t\t</variations>\n+\t\t<command>\n+\t\t\t$(JAVA_COMMAND) $(CMDLINETESTER_JVM_OPTIONS) -Xdump \\\n+\t\t\t-DEXE=$(SQ)$(JAVA_COMMAND) $(JVM_OPTIONS)$(SQ) \\\n+\t\t\t-DRESJAR=$(Q)$(TEST_RESROOT)$(D)imageReaderInitializationTest.jar$(Q) \\\n+\t\t\t-jar $(CMDLINETESTER_JAR) -config $(Q)$(TEST_RESROOT)$(D)imageReaderInitializationTest.xml$(Q) \\\n+\t\t\t-explainExcludes -xids all,$(PLATFORM),$(VARIATION), -nonZeroExitWhenError; \\\n+\t\t\t${TEST_STATUS}\n+\t\t</command>\n+\t\t<levels>\n+\t\t\t<level>sanity</level>\n+\t\t</levels>\n+\t\t<groups>\n+\t\t\t<group>functional</group>\n+\t\t</groups>\n+\t</test>\n+</playlist>"
+        },
+        {
+          "sha": "c92f01797e077fef74dfbc205d8d3c0d1cd31688",
+          "filename": "test/functional/cmdLineTests/imageReaderInitializationTest/src/org/openj9/test/ImageReaderInitializationTest.java",
+          "status": "added",
+          "additions": 37,
+          "deletions": 0,
+          "changes": 37,
+          "blob_url": "https://github.com/eclipse-openj9/openj9/blob/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2Fsrc%2Forg%2Fopenj9%2Ftest%2FImageReaderInitializationTest.java",
+          "raw_url": "https://github.com/eclipse-openj9/openj9/raw/ffdf96d6a5ca35af07ce8c69a02dd737b807f1de/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2Fsrc%2Forg%2Fopenj9%2Ftest%2FImageReaderInitializationTest.java",
+          "contents_url": "https://api.github.com/repos/eclipse-openj9/openj9/contents/test%2Ffunctional%2FcmdLineTests%2FimageReaderInitializationTest%2Fsrc%2Forg%2Fopenj9%2Ftest%2FImageReaderInitializationTest.java?ref=ffdf96d6a5ca35af07ce8c69a02dd737b807f1de",
+          "patch": "@@ -0,0 +1,37 @@\n+/*\n+ * Copyright IBM Corp. and others 2025\n+ *\n+ * This program and the accompanying materials are made available under\n+ * the terms of the Eclipse Public License 2.0 which accompanies this\n+ * distribution and is available at https://www.eclipse.org/legal/epl-2.0/\n+ * or the Apache License, Version 2.0 which accompanies this distribution and\n+ * is available at https://www.apache.org/licenses/LICENSE-2.0.\n+ *\n+ * This Source Code may also be made available under the following\n+ * Secondary Licenses when the conditions for such availability set\n+ * forth in the Eclipse Public License, v. 2.0 are satisfied: GNU\n+ * General Public License, version 2 with the GNU Classpath\n+ * Exception [1] and GNU General Public License, version 2 with the\n+ * OpenJDK Assembly Exception [2].\n+ *\n+ * [1] https://www.gnu.org/software/classpath/license.html\n+ * [2] https://openjdk.org/legal/assembly-exception.html\n+ *\n+ * SPDX-License-Identifier: EPL-2.0 OR Apache-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0 OR GPL-2.0-only WITH OpenJDK-assembly-exception-1.0\n+ */\n+package org.openj9.test;\n+\n+/*\n+ * This test is to make sure that ImageReader is initialized during boot.\n+ * So in case an invalid java.home is set and an exception is thrown in\n+ * the code, the exception can be correctly thrown.\n+ */\n+public class ImageReaderInitializationTest {\n+\tpublic static void main(String[] args) {\n+\t\tSystem.setProperty(\"java.home\", \"/invalid/path/to/java\");\n+\t\tString javaHome = System.getProperty(\"java.home\");\n+\t\tif (javaHome.equals(\"/invalid/path/to/java\")) {\n+\t\t\tthrow new IllegalStateException(\"Invalid Java home set, throwing expected IllegalStateException\");\n+\t\t}\n+\t}\n+}"
+        }
+      ]
+    }
+  },
+  "bad_build": {
+    "sha": "9d6f392",
+    "details": {
+      "sha": "9d6f392e27ddcfcfc71fdb192dd77a02ea17d448",
+      "node_id": "C_kwDOBgtdddoAKDlkNmYzOTJlMjdkZGNmY2ZjNzFmZGIxOTJkZDc3YTAyZWExN2Q0NDg",
+      "commit": {
+        "author": {
+          "name": "Tobi",
+          "email": "atobia@ca.ibm.com",
+          "date": "2025-03-21T17:58:18Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-03-21T17:58:18Z"
+        },
+        "message": "Merge pull request #21437 from thallium/threaddump\n\nFix thread raw state format in dumps",
+        "tree": {
+          "sha": "6e89592e8a33a00088d7d3055ac1e3b79def97b9",
+          "url": "https://api.github.com/repos/eclipse-openj9/openj9/git/trees/6e89592e8a33a00088d7d3055ac1e3b79def97b9"
+        },
+        "url": "https://api.github.com/repos/eclipse-openj9/openj9/git/commits/9d6f392e27ddcfcfc71fdb192dd77a02ea17d448",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3ai6CRC1aQ7uu5UhlAAAl4gQAHRqvUG7FFDOovko0sz7GWwh\ntMCGAGI37v1idY1eFFUaE1OUelwyrljT1CecLc8jA0v7qYHJGuyqNkK88FPK4Z7H\n+mzC/YPm8Aafjzz8x3lvRVM7YOvKthlFtLicjlac2w7fOxSsNOy7F5VTbZfOAYlJ\nL4GryR0iBsQ6iBuUvXP8LLhD+ks8PXYSvO1jAo3EW/9UTnniE0FBp5UewWRpTPy+\nQxQ7vO9+eIXzFpA2r3hbDYQpvx3HGmqH7ZQ5pf/uDnDP2F2OgEJVcE77f9E4DJ+Q\nk2+6g7Hi8l2uIul8QwvjP/+bFHbj7bEAXDOZDHWkBhlI3z+oZkWRBrFbCE2AdBzq\nm5Mq5d5Yop86qRTHQuJIwoJkmc4Csg3XMraVYlAP0XlBtMOvy5kHpF+jA866VC2V\n2/wgKaP1l8y/KCP12Z8/VFeOYeY9S+KUVf7UMVDrN65MeyX4rLlwQMHT6zLDueOG\nx1qaEQhiYg+pnc9ghelEYDKopkN1Dl1jD8mM+jQ7Fw1DjPEvOlJ07nU07e+6TYAb\nquCRc1tjsO0i8j7r8KNy07aHD7dspWTwCxi766YMlU680sKwLpan4ZWwC6km8pDZ\nBYTdCG5bAw0aqoOBsTnZwdFHZFppCHzSw1mjc4jSL+bxeZf1BSStz3lmBLq7oJro\n90cvd2KVfEjGbTEIhFYp\n=bg/p\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6e89592e8a33a00088d7d3055ac1e3b79def97b9\nparent ee64e344f2d4e90e06bafedcfb98ff6537f91063\nparent 0af7de5527a1f7f09f3e52859fc57f3d06e2aa45\nauthor Tobi <atobia@ca.ibm.com> 1742579898 -0400\ncommitter GitHub <noreply@github.com> 1742579898 -0400\n\nMerge pull request #21437 from thallium/threaddump\n\nFix thread raw state format in dumps",
+          "verified_at": "2025-03-21T18:03:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/eclipse-openj9/openj9/commits/9d6f392e27ddcfcfc71fdb192dd77a02ea17d448",
+      "html_url": "https://github.com/eclipse-openj9/openj9/commit/9d6f392e27ddcfcfc71fdb192dd77a02ea17d448",
+      "comments_url": "https://api.github.com/repos/eclipse-openj9/openj9/commits/9d6f392e27ddcfcfc71fdb192dd77a02ea17d448/comments",
+      "author": {
+        "login": "tajila",
+        "id": 12551021,
+        "node_id": "MDQ6VXNlcjEyNTUxMDIx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/12551021?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tajila",
+        "html_url": "https://github.com/tajila",
+        "followers_url": "https://api.github.com/users/tajila/followers",
+        "following_url": "https://api.github.com/users/tajila/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tajila/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tajila/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tajila/subscriptions",
+        "organizations_url": "https://api.github.com/users/tajila/orgs",
+        "repos_url": "https://api.github.com/users/tajila/repos",
+        "events_url": "https://api.github.com/users/tajila/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tajila/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ee64e344f2d4e90e06bafedcfb98ff6537f91063",
+          "url": "https://api.github.com/repos/eclipse-openj9/openj9/commits/ee64e344f2d4e90e06bafedcfb98ff6537f91063",
+          "html_url": "https://github.com/eclipse-openj9/openj9/commit/ee64e344f2d4e90e06bafedcfb98ff6537f91063"
+        },
+        {
+          "sha": "0af7de5527a1f7f09f3e52859fc57f3d06e2aa45",
+          "url": "https://api.github.com/repos/eclipse-openj9/openj9/commits/0af7de5527a1f7f09f3e52859fc57f3d06e2aa45",
+          "html_url": "https://github.com/eclipse-openj9/openj9/commit/0af7de5527a1f7f09f3e52859fc57f3d06e2aa45"
+        }
+      ],
+      "stats": {
+        "total": 4,
+        "additions": 2,
+        "deletions": 2
+      },
+      "files": [
+        {
+          "sha": "cd2e3ae858f43e2ea2a013568d58fc10a485676a",
+          "filename": "runtime/rasdump/javadump.cpp",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "changes": 2,
+          "blob_url": "https://github.com/eclipse-openj9/openj9/blob/9d6f392e27ddcfcfc71fdb192dd77a02ea17d448/runtime%2Frasdump%2Fjavadump.cpp",
+          "raw_url": "https://github.com/eclipse-openj9/openj9/raw/9d6f392e27ddcfcfc71fdb192dd77a02ea17d448/runtime%2Frasdump%2Fjavadump.cpp",
+          "contents_url": "https://api.github.com/repos/eclipse-openj9/openj9/contents/runtime%2Frasdump%2Fjavadump.cpp?ref=9d6f392e27ddcfcfc71fdb192dd77a02ea17d448",
+          "patch": "@@ -4544,7 +4544,7 @@ JavaCoreDumpWriter::writeThread(J9VMThread* vmThread, J9PlatformThread *nativeTh\n \t\t/* Replace vmstate with java state in the \"3XMTHREADINFO\" entry */\n \t\t_OutputStream.writeCharacters(\", state:\");\n \t\twriteThreadState(javaState);\n-\t\t_OutputStream.writeCharacters(\", raw state:\");\n+\t\t_OutputStream.writeCharacters(\", rawStateValue:\");\n \t\t_OutputStream.writeInteger(javaState);\n \n \t\t_OutputStream.writeCharacters(\", prio=\");"
+        },
+        {
+          "sha": "5ac5328fc17e160eb9ba4f011dcce1b6cb744aa7",
+          "filename": "runtime/vm/JFRChunkWriter.cpp",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "changes": 2,
+          "blob_url": "https://github.com/eclipse-openj9/openj9/blob/9d6f392e27ddcfcfc71fdb192dd77a02ea17d448/runtime%2Fvm%2FJFRChunkWriter.cpp",
+          "raw_url": "https://github.com/eclipse-openj9/openj9/raw/9d6f392e27ddcfcfc71fdb192dd77a02ea17d448/runtime%2Fvm%2FJFRChunkWriter.cpp",
+          "contents_url": "https://api.github.com/repos/eclipse-openj9/openj9/contents/runtime%2Fvm%2FJFRChunkWriter.cpp?ref=9d6f392e27ddcfcfc71fdb192dd77a02ea17d448",
+          "patch": "@@ -1104,7 +1104,7 @@ writeThreadInfo(J9VMThread *currentThread, J9VMThread *walkThread, VM_BufferWrit\n \t\treleaseOMRVMThreadName(walkThread->omrVMThread);\n \t}\n \tbufferWriter->writeFormattedString(\n-\t\t\t\"\\\"%s\\\" J9VMThread: %p tid: %zd nid: %zd prio: %zd state: %s raw state: 0x%zX\",\n+\t\t\t\"\\\"%s\\\" J9VMThread: %p tid: %zd nid: %zd prio: %zd state: %s rawStateValue: 0x%zX\",\n \t\t\tthreadName,\n \t\t\twalkThread,\n \t\t\tjavaTID,"
+        }
+      ]
+    },
+    "test_failures": {
+      "count": 1,
+      "tests": [
+        "Issue Opened"
+      ],
+      "error_messages": []
+    }
+  },
+  "total_commits_analyzed": 167,
+  "likely_problematic_commits": [
+    {
+      "sha": "f12ef363bdf96e4846ff4276fa3790c59b4f4925",
+      "author": "Peter Shipton",
+      "message": "Revert \"Implement JVM_GetProperties for jdk17+\"",
+      "date": "2025-03-07T23:34:34Z",
+      "raw_score": 115,
+      "score": 63,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 1823 lines modified",
+        "Changes 22 different files",
+        "Changes affect critical area: security",
+        "Changes production code without updating tests",
+        "Commit message lacks descriptive content",
+        "Adds 135 new control structures (increased complexity)",
+        "Commit made at unusual hour: 23:00"
+      ]
+    },
+    {
+      "sha": "38a18d4270bec8080eae9131ecfd983473cbd02c",
+      "author": "Adrian Popescu",
+      "message": "Add JFR monitor enter event\n\nThis change adds support for the JFR monitor enter event.\n\nSigned-off-by: Adrian Popescu <adpopescu@ibm.com>",
+      "date": "2025-02-07T18:19:46Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: Thread, lock, atomic",
+        "Large change with 190 lines modified",
+        "Changes 8 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 10 new control structures (increased complexity)",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "172a32eb3ff5033a69906f957b7baebbca72d543",
+      "author": "Jack Lu",
+      "message": "Add basic yield pinned vthread support\n\nUpdate Continuation.Pinned enum\nAdd field refs in vmconstantpool.xml\nadd helper to update monitor info\nadd enterObjectMonitor intercept\nAdd support for Object.wait/notify()\nAdd reverse link between J9VMContinuation and vthread & remove Object ref in J9ObjectMonitor\nMove JVM_TakeVirtualThreadListToUnblock code into helper\nRename XX:YieldPinnedContinuation to XX:YieldPinnedVirtualThreads\n\nCo-authored-by: Jack Lu <Jack.S.Lu@ibm.com>\nCo-authored-by: Babneet Singh <sbabneet@ca.ibm.com>\nCo-authored-by: Keith W. Campbell <keithc@ca.ibm.com>",
+      "date": "2024-11-21T23:09:09Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, concurrent, lock, atomic, volatile",
+        "Large change with 784 lines modified",
+        "Changes 16 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 73 new control structures (increased complexity)",
+        "Commit made at unusual hour: 23:00"
+      ]
+    },
+    {
+      "sha": "754bf6e642fac0d068d611f3f79bb74e6812f684",
+      "author": "Daryl Maier",
+      "message": "Merge pull request #21218 from hzongaro/monenter-throws-IdentityExcept\n\nThrow IdentityException if operand of monent is a value type object",
+      "date": "2025-03-06T19:33:15Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread",
+        "Large change with 200 lines modified",
+        "Changes 16 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 6 new control structures (increased complexity)",
+        "Commit made at unusual hour: 19:00"
+      ]
+    },
+    {
+      "sha": "9620a5a7654118a6b379a8185281653d06b3fa80",
+      "author": "Peter Shipton",
+      "message": "Implement JVM_GetProperties for jdk17+\n\nRelated to https://github.com/eclipse-openj9/openj9/issues/21189\n\nMove the code, more or less unchanged, from the jcl to the\nvm so it can be called from multiple places. Remove unnecessary system\nprops from jdk17+, they are added by SystemProps.initProperties().\n\nSigned-off-by: Peter Shipton <Peter_Shipton@ca.ibm.com>",
+      "date": "2025-02-26T20:25:11Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 1823 lines modified",
+        "Changes 22 different files",
+        "Changes affect critical area: security",
+        "Changes production code without updating tests",
+        "Adds 125 new control structures (increased complexity)",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "dd89e9ab80f5d851a2aa422d052aec0a65822572",
+      "author": "Jack Lu",
+      "message": "Enter critical transition when preparing for unmount pinned vthread\n\nMove enter/exitVThreadTransitionCritical to ContinuationHelpers.hpp\nEnter critical before yielding a pinned vthread\nExit critical after vthread re-entry from a pinned state (not vthread.yield)\n\nCo-authored-by: Babneet Singh <sbabneet@ca.ibm.com>\nCo-authored-by: Jack Lu <Jack.S.Lu@ibm.com>",
+      "date": "2025-02-22T19:28:07Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock, atomic, volatile",
+        "Large change with 216 lines modified",
+        "Changes 6 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 8 new control structures (increased complexity)",
+        "Commit made at unusual hour: 19:00"
+      ]
+    },
+    {
+      "sha": "840b2c95f65f3297e4b7e6a3d5ee87e400e3ffd2",
+      "author": "Jack Lu",
+      "message": "Fix Object.wait/notify logic\n\nCorrectly handle the waiting object during detach/attach.\nUse vthread.notified field to indicate status.\nPrevent vthreads in transition to be returned as unblocked.\n\nCo-authored-by: Babneet Singh <sbabneet@ca.ibm.com>\nSigned-off-by: Jack Lu <Jack.S.Lu@ibm.com>",
+      "date": "2025-03-04T23:43:34Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, lock",
+        "Large change with 214 lines modified",
+        "Changes 6 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 28 new control structures (increased complexity)",
+        "Commit made at unusual hour: 23:00"
+      ]
+    },
+    {
+      "sha": "daf2bc99f8ab827a7fb1d8dc8091c6f3a88ce85c",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21313 from eclipse-openj9/revert-21200-sysprops\n\nRevert \"Implement JVM_GetProperties for jdk17+\"",
+      "date": "2025-03-07T23:35:04Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 1823 lines modified",
+        "Changes 22 different files",
+        "Changes affect critical area: security",
+        "Changes production code without updating tests",
+        "Adds 135 new control structures (increased complexity)",
+        "Commit made at unusual hour: 23:00"
+      ]
+    },
+    {
+      "sha": "26baa50a0a640ec903335db1535b940ba94a651c",
+      "author": "Babneet Singh",
+      "message": "Merge pull request #21292 from fengxue-IS/jep491-4\n\nFix hang on vthread unmount when -XX:+YieldPinnedVirtualThreads is enabled",
+      "date": "2025-03-10T02:39:51Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, lock, atomic, volatile",
+        "Large change with 507 lines modified",
+        "Changes 8 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 47 new control structures (increased complexity)",
+        "Commit made at unusual hour: 2:00"
+      ]
+    },
+    {
+      "sha": "3112a2cde5dbc9eb6b6fb8813fb98c40de3e2ffb",
+      "author": "Marius Pirvu",
+      "message": "Merge pull request #21126 from dsouzai/externalOptions\n\nFind and consume all -X / -XX options relevant to the JIT",
+      "date": "2025-03-11T00:51:13Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 801 lines modified",
+        "Changes 7 different files",
+        "Changes affect critical area: crypt",
+        "Changes production code without updating tests",
+        "Adds 6 new control structures (increased complexity)",
+        "Commit made at unusual hour: 0:00"
+      ]
+    },
+    {
+      "sha": "cbe2b8cda7404ca1942aa0d63f070b89efe7067a",
+      "author": "lhu",
+      "message": "GC update for supporting yield of pinned VirtualThread(JEP491)\n\nIn order to supporting yield of pinned VirtualThread\na couple of heap references have been added in chain of continuation\nstructures, GC need to maintain(scan/update) these references.\n\n1, new ContunuationSlotIterator to iterate all of the references\n list of monitorRecord\n list of jniMonitorRecord\n vthread reference\nContunuationSlotIterator also contains state and related vmThread\nstate (can be state_monitor_records or state_vthread) for assert check\nin doContinuationSlot() (monitor_records can be non heap reference),\nvmThread is for retrieving related carrier context during rootscanning.\n\n2, two new methods doSlot() and doContinuationSlot() are introduced\ndoSlot() would handle basic processing, which can be shared between\ndoContinuationSlot() and doStackSlot().\ndoContinuationSlot() would have condition check for heap reference and\nalso get ContunuationSlotIterator as a parameter for the extra assert\nchecks.\n\n3, mounted continuations are scanned during rootscan/scanOneThread\nunmounted continuations are scanned during ContinuationNativeSlots\n\n4, for doContinuationSlot in CopyForwardScheme case\nthe reservingContext (numa node related) can be retrieved via\nContunuationSlotIterator (carrier thread context) for root scanning\nphase, and retrieved via the region of related Continuation Object\nfor heap scanning phase.\n\nSigned-off-by: lhu <linhu@ca.ibm.com>",
+      "date": "2025-02-18T18:45:23Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, concurrent, lock",
+        "Large change with 934 lines modified",
+        "Changes 31 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 61 new control structures (increased complexity)",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "7a5c47ba219c3dab292b0b464967138f0ef623c9",
+      "author": "Spencer Comin",
+      "message": "Recognize opaque and acquire/release intrinsics\n\nAdd opaque and acquire/release flavours of get put methods in Unsafe as\nrecognized methods, and generate unsafe shadow symbols with the correct\naccess modes when inlining these methods.\n\nSigned-off-by: Spencer Comin <spencer.comin@ibm.com>",
+      "date": "2024-11-22T20:18:00Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock, atomic, volatile",
+        "Large change with 707 lines modified",
+        "Changes 9 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 11 new control structures (increased complexity)",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "4e1c9d2835024b9a3369402e234a50f0e0375493",
+      "author": "Aleksandar Micic",
+      "message": "Merge pull request #21147 from LinHu2016/update4virtualThreadMonitor\n\nGC update for supporting yield of pinned VirtualThread(JEP491)",
+      "date": "2025-03-13T21:27:56Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, concurrent, lock",
+        "Large change with 934 lines modified",
+        "Changes 31 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 61 new control structures (increased complexity)",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "f9751980ab28d26e8fc96b51046dc63645e81e95",
+      "author": "Jack Lu",
+      "message": "Add vthread yield support for monitors entered from JIT\n\n- Add new JIT to Interpreter transition on monitor entry\n- Add preparePinnedVirtualThreadForUnmount to internal functions\n- Move Continuation.blocker reset to enterContinuationImpl\n- Update preparePinnedVirtualThreadForMount/Unmount to use stackwalk\n  when finding entered monitors and cache them in a linked list stored\n  in the J9VMContinuation struct.\n- Add new code path to jitGetOwnedObjectMonitors to support vthread yield.\n\nCo-authored-by: Graham Chapman <graham_chapman@ca.ibm.com>\nSigned-off-by: Jack Lu <Jack.S.Lu@ibm.com>",
+      "date": "2025-02-27T18:30:55Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, lock, volatile",
+        "Large change with 701 lines modified",
+        "Changes 19 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 55 new control structures (increased complexity)",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "50e68fa79072a7d48f2f1181a3e2c5ae002882bb",
+      "author": "Graham Chapman",
+      "message": "Merge pull request #21334 from fengxue-IS/jep491-jit\n\nJIT Monitor enter support for Yielding pinned VirtualThread JEP491",
+      "date": "2025-03-17T04:37:53Z",
+      "raw_score": 105,
+      "score": 58,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, lock, volatile",
+        "Large change with 701 lines modified",
+        "Changes 19 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 55 new control structures (increased complexity)",
+        "Commit made at unusual hour: 4:00"
+      ]
+    },
+    {
+      "sha": "b4a08b0f76e5daeb58f44cc05be09938b114a367",
+      "author": "Annabelle Huo",
+      "message": "Check Control Flow Guard on Windows\n\nIf Control Flow Guard (CFG) is enabled in Windows, set\nTR_NoResumableTrapHandler in the JIT.\n\nIf CFG is set, the JIT will not resume exception but\ninstead it goes to the unexpected exception path error\nhandling so that the diagnostic logs will be dumped.\n\nThis change relies on API GetProcessMitigationPolicy.\nIts minimum supported client version is Windows 8 and\nits minimum supported server version is Windows Server 2012.\n\nFixes: #19892\n\nSigned-off-by: Annabelle Huo <Annabelle.Huo@ibm.com>",
+      "date": "2025-02-10T20:52:54Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'expect' patterns",
+        "Code has risky patterns: Thread",
+        "Large change with 403 lines modified",
+        "Changes affect critical area: kernel",
+        "Changes production code without updating tests",
+        "Adds 27 new control structures (increased complexity)",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "aa5d891d0f6b36f44ac244ef429a92f4c995ef21",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21179 from adpopescu/jfr-monitor\n\nAdd JFR monitor enter event",
+      "date": "2025-03-04T14:12:18Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: Thread, lock, atomic",
+        "Large change with 190 lines modified",
+        "Changes 8 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 10 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "5daa110e0a3d53ae88a25ee1f8c72e569b2a01cb",
+      "author": "Babneet Singh",
+      "message": "Merge pull request #21273 from fengxue-IS/jep491-3.1\n\nJep491 VM support",
+      "date": "2025-03-05T15:08:34Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, concurrent, lock, atomic, volatile",
+        "Large change with 784 lines modified",
+        "Changes 16 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 73 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "96b2f0f6c9da92f4b3f98474b1bb3db977533131",
+      "author": "Henry Zongaro",
+      "message": "Throw IdentityException if operand of monent is a value type object\n\nPreviously, specifying an instance of a value type class on a\nmonitorenter bytecode would result in an IllegalMonitorStateException;\na java.lang.IdentityException must now be thrown instead.\n\nThis commit introduces a non-helper, <isIdentityObject>, that checks\nthat the operand of a TR::monent instruction is an instance of an\nidentity class rather than a value type class.  If it is a value type\nclass, it throws an IdentityException.  The actual test is expanded\nto test the flags field of the object's class during the Tree Lowering\noptimization pass.\n\nThe result of <isIdentityObject> is tested on a ZEROCHK operation that\nis generated before the monent during IL generation.\n\nSigned-off-by:  Henry Zongaro <zongaro@ca.ibm.com>",
+      "date": "2025-01-29T14:54:21Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread",
+        "Large change with 200 lines modified",
+        "Changes 16 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 6 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "c363b26afeec17efc60ab87926144bfd4ac448ab",
+      "author": "Vijay Sundaresan",
+      "message": "Merge pull request #21157 from nbhuiyan/class-arg-propagation\n\nEnable peeking ILGen for inlined methods related to java/util/HashMap get/put operations.",
+      "date": "2025-03-05T23:06:50Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: lock",
+        "Large change with 141 lines modified",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 10 new control structures (increased complexity)",
+        "Commit made at unusual hour: 23:00"
+      ]
+    },
+    {
+      "sha": "db3f244ab1c7f010bcc7073bcf9a298ad6e92470",
+      "author": "Jack Lu",
+      "message": "Allow pinned vthread to yield in normal path\n\nUpdate isPinnedImpl to ignore ownedMonitorCount when trying to yield.\nHandle the detach/attach when yielding vthread holds monitors.\n\nSigned-off-by: Jack Lu <Jack.S.Lu@ibm.com>",
+      "date": "2025-03-06T08:04:24Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 119 lines modified",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 15 new control structures (increased complexity)",
+        "Commit made at unusual hour: 8:00"
+      ]
+    },
+    {
+      "sha": "1f970cd6ebae7d6137594e3c071ae8146987a63b",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21200 from pshipton/sysprops\n\nImplement JVM_GetProperties for jdk17+",
+      "date": "2025-03-07T16:10:30Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 1823 lines modified",
+        "Changes 22 different files",
+        "Changes affect critical area: security",
+        "Changes production code without updating tests",
+        "Adds 125 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "095c7e6ef471a509a3e45d3f8a100aab304ef1ba",
+      "author": "Gengchen Tuo",
+      "message": "Add JFR ThreadDump support\n\nSigned-off-by: Gengchen Tuo <gengchen.tuo@ibm.com>",
+      "date": "2024-11-08T02:58:06Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 309 lines modified",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 24 new control structures (increased complexity)",
+        "Commit made at unusual hour: 2:00"
+      ]
+    },
+    {
+      "sha": "00a6c450285770d5a955b392610b0aba20290819",
+      "author": "Keith W. Campbell",
+      "message": "Use new classfile API to work with bytecode for Java 24+\n\nUpdate BytecodeGenerator:\n* correct max locals in subOffset(long)\n\nEncapsulate uses of objectweb.asm within ClassScanner.\n\nSigned-off-by: Keith W. Campbell <keithc@ca.ibm.com>",
+      "date": "2025-01-15T16:16:36Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: new ",
+        "Large change with 1617 lines modified",
+        "Changes 6 different files",
+        "Changes affect critical area: auth",
+        "Changes production code without updating tests",
+        "Adds 58 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "72b169f3c84ba4ddfd9d5bbf00a90c085ca22bf6",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21341 from keithc-ca/classfile\n\nUse new classfile API to work with bytecode for Java 24+",
+      "date": "2025-03-13T14:29:08Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: new ",
+        "Large change with 1617 lines modified",
+        "Changes 6 different files",
+        "Changes affect critical area: auth",
+        "Changes production code without updating tests",
+        "Adds 58 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "07d2353c2f6b47aace47f4a86f79feec1a871198",
+      "author": "Spencer Comin",
+      "message": "Refine Symbol::isVolatile tests\n\nWith the expansion of possible memory ordering semantics from binary\nvolatile or non-volatile to volatile, acquire/release, opaque, and\ntransparent, all tests  whether a symbol is volatile need to be refined\ndepending on the intention of the test, i.e. is it testing if the\nsymbol is strictly volatile, simply opaque, or somewhere in between?\n\nSigned-off-by: Spencer Comin <spencer.comin@ibm.com>",
+      "date": "2024-11-22T17:16:37Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'perf' patterns",
+        "Code has risky patterns: Thread, lock, atomic, volatile",
+        "Large change with 117 lines modified",
+        "Changes 8 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 15 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "d2811ca2ca2463508c521ed2848b0eee27f7c770",
+      "author": "tajila",
+      "message": "Fix issue with waiting vthreads\n\nWhen a vthread is in a timed wait, it is added to the running queue\nby a Java thread directly if the timeout elapses. In this case, we\nneed to ensure it is removed from any waiting list, as it will not\npass through the takeVirtualThreadListToUnblock path.\n\nSigned-off-by: tajila <atobia@ca.ibm.com>",
+      "date": "2025-03-13T20:22:59Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, concurrent, lock, volatile",
+        "Large change with 138 lines modified",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 10 new control structures (increased complexity)",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "9bb3c2db5b41a7db5c26e15a2d7963277102527f",
+      "author": "Babneet Singh",
+      "message": "Merge pull request #21355 from tajila/vt\n\nFix issue with waiting vthreads",
+      "date": "2025-03-14T23:26:23Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, concurrent, lock, volatile",
+        "Large change with 138 lines modified",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 10 new control structures (increased complexity)",
+        "Commit made at unusual hour: 23:00"
+      ]
+    },
+    {
+      "sha": "61c2582de30bc5c7719a22cd6991287a8f0bf87b",
+      "author": "Daryl Maier",
+      "message": "Merge pull request #20475 from Spencer-Comin/acqrel-opaque\n\nImplement Unsafe opaque and acquire/release put and get methods",
+      "date": "2025-03-17T10:48:31Z",
+      "raw_score": 95,
+      "score": 52,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock, atomic, volatile",
+        "Large change with 915 lines modified",
+        "Changes 17 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 25 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "f613aae5c80251889209b54c9a6004212020ce8c",
+      "author": "Peter Shipton",
+      "message": "Use extensions System.initProperties to help init jdk11 properties\n\nDepends on https://github.com/ibmruntimes/openj9-openjdk-jdk11/pull/880\n\nRelated to https://github.com/eclipse-openj9/openj9/issues/21189\n\nSigned-off-by: Peter Shipton <Peter_Shipton@ca.ibm.com>",
+      "date": "2025-03-14T19:49:14Z",
+      "raw_score": 90,
+      "score": 50,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread",
+        "Large change with 157 lines modified",
+        "Changes 6 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 19:00"
+      ]
+    },
+    {
+      "sha": "d6d0fe6bd93306010e045cf01d303db9d34990b7",
+      "author": "Daryl Maier",
+      "message": "Merge pull request #21154 from a7ehuo/windows-cfg-detection-4\n\nCheck Control Flow Guard on Windows",
+      "date": "2025-03-03T16:15:59Z",
+      "raw_score": 85,
+      "score": 47,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'expect' patterns",
+        "Code has risky patterns: Thread",
+        "Large change with 403 lines modified",
+        "Changes affect critical area: kernel",
+        "Changes production code without updating tests",
+        "Adds 27 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "c099a69256a0b71aa2822aab175b0c27c8d3eb86",
+      "author": "lhu",
+      "message": "Add new DumpAllOffHeapEntriesCommand in DDR\n\n - new DumpAllOffHeapEntriesCommand provides a way to list all\n  off-heap entries in the core file, which contain off heap data\n  (only when off-heap has been enabled in jvm and gcpolicy has been set\n  to Balanced GC mode).\n - for the rest of cases(off-heap has been disabled or \"old core file\",\n  which did not contain off-heap option at all), print out error message\n  \"This command only works with the core file,\n  which contains off-heap.\"\n - off-heap entry information includes\n   the address of the Array Object,\n   the data address and\n   the size of array data\n\nSigned-off-by: lhu <linhu@ca.ibm.com>",
+      "date": "2025-01-24T20:47:24Z",
+      "raw_score": 85,
+      "score": 47,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: memory, new ",
+        "Large change with 225 lines modified",
+        "Changes affect critical area: core",
+        "Changes production code without updating tests",
+        "Adds 17 new control structures (increased complexity)",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "33767c224086bcd72d02c5529fe56a00bea9413d",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #20301 from thallium/threaddump\n\nAdd JFR ThreadDump support",
+      "date": "2025-03-12T13:18:56Z",
+      "raw_score": 85,
+      "score": 47,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 309 lines modified",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 24 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "87e3b7a968cc1a66df17e8c9b7fd2c4dfc7224fe",
+      "author": "Tobi",
+      "message": "Merge pull request #21384 from babsingh/vt\n\nJEP491: Never Deflate Monitors and Synchronize virtualThreadWaitCount",
+      "date": "2025-03-19T01:59:51Z",
+      "raw_score": 85,
+      "score": 47,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, lock, atomic",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 6 new control structures (increased complexity)",
+        "Commit made at unusual hour: 1:00"
+      ]
+    },
+    {
+      "sha": "dea4d163f15f411db38ec5f0269c3b5009609921",
+      "author": "Julian Wang",
+      "message": "Merge pull request #21195 from rmnattas/x-arrstrchk\n\nEvaluate destination subtrees early when deferring destination eval",
+      "date": "2025-03-20T23:03:33Z",
+      "raw_score": 85,
+      "score": 47,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: memory",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 6 new control structures (increased complexity)",
+        "Commit made at unusual hour: 23:00"
+      ]
+    },
+    {
+      "sha": "ff3b23d33cf8366ce8ece9d94ee663f4ed7eefeb",
+      "author": "Peter Shipton",
+      "message": "Revert \"x86: check xcr0 in AOT compiles\"",
+      "date": "2025-03-07T20:59:05Z",
+      "raw_score": 80,
+      "score": 44,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'stub' patterns",
+        "Code has risky patterns: volatile",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit message lacks descriptive content",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "3f8ccc251049a43255fb36ea5c245c43287c41fd",
+      "author": "Irwin D'Souza",
+      "message": "Add External Options Metadata\n\nThis commit adds the ExternalOptionsMetadata struct as well as a table\nof this struct to contain information about External Options that the\nJIT processes. This commit also adds a method to find and possibly\nconsume the options, caching the arg index. Finally, this commit adds\nsome documentation to describe how to add a new external option.\n\nSigned-off-by: Irwin D'Souza <dsouzai.gh@gmail.com>",
+      "date": "2025-02-12T21:16:44Z",
+      "raw_score": 80,
+      "score": 44,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 402 lines modified",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "eb7d855c830c75f60b79e0d7ad5cc34b32ee642f",
+      "author": "Irwin D'Souza",
+      "message": "Use External Options Metadata Table\n\nThis commit updates the JIT to use the External Options Metadata table.\nThis ensures that all external options that are used to control JIT\nfunctionality are consumed, which prevents the JVM from terminating\nearly with an error when -XX:-IgnoreUnrecognizedXXColonOptions is\nspecified.\n\nSigned-off-by: Irwin D'Souza <dsouzai.gh@gmail.com>",
+      "date": "2025-02-13T19:11:17Z",
+      "raw_score": 80,
+      "score": 44,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 415 lines modified",
+        "Changes affect critical area: crypt",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 19:00"
+      ]
+    },
+    {
+      "sha": "6254ab0085f26cbcdd08fe0008113669be3fdff1",
+      "author": "Spencer Comin",
+      "message": "Remove Unsafe.putOrdered call duplication\n\nSince Unsafe.putOrdered is fully supported through acquire/release\nsymbols, we no longer need to duplicate the call tree to prevent\nincorrect optimizations.\n\nSigned-off-by: Spencer Comin <spencer.comin@ibm.com>",
+      "date": "2024-11-04T20:21:03Z",
+      "raw_score": 80,
+      "score": 44,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: memory",
+        "Large change with 107 lines modified",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "08387a2d53578c6b79f9ab8761367062269af49d",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21357 from pshipton/sysprops11\n\nUse extensions System.initProperties to help init jdk11 properties",
+      "date": "2025-03-18T13:32:57Z",
+      "raw_score": 80,
+      "score": 44,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread",
+        "Large change with 157 lines modified",
+        "Changes 6 different files",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "fb6233086ecdda8bee28ef66cc1b1d6f72a4d147",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21047 from LinHu2016/DDR_update4offheap\n\nAdd new DumpAllOffHeapEntriesCommand in DDR",
+      "date": "2025-03-08T15:45:24Z",
+      "raw_score": 75,
+      "score": 41,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: memory, new ",
+        "Large change with 225 lines modified",
+        "Changes affect critical area: core",
+        "Changes production code without updating tests",
+        "Adds 17 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "4652e7bea954b2f19b3e7c5e86bb5aec5904bb90",
+      "author": "Abdulrahman Alattas",
+      "message": "Evaluate destination subtrees early when deferring destination eval\n\nIn x86 ArrayStoreCHK, with OffHeap the destination tree evaluation is\ndeferred but its subtrees still need to be evaluated early especially if\nsubtrees are complex and might introduce more instructions and\nvirtual-registers.",
+      "date": "2025-02-26T15:52:48Z",
+      "raw_score": 75,
+      "score": 41,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: memory",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 6 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "94f4a9ea92860c84ddad61e0a912cf75327a5f94",
+      "author": "Peter Shipton",
+      "message": "Implement JVM_GetProperties for jdk17+\n\nThis reverts commit f12ef363bdf96e4846ff4276fa3790c59b4f4925, which\nre-instates commit 9620a5a7654118a6b379a8185281653d06b3fa80, PR\nhttps://github.com/eclipse-openj9/openj9/pull/21200 plus some additional\ncosmetic changes, and the following.\n\nSetting SystemProps.customTmpdir is unnecessary, and fails.\nIt already has the correct value from calling\nSystemProps.initProperties().\n\nIssue https://github.com/eclipse-openj9/openj9/issues/21311\n\nModify the tracepoint used by test to match VM changes.\ncmdLineTester_PageAlignDirectMemory uses the j9jcl.352 tracepoint, which\nhas moved to j9vm.791.\n\nIssue https://github.com/eclipse-openj9/openj9/issues/21314\n\nUpdate JVM_GetTemporaryDirectory\n\nSigned-off-by: Peter Shipton <Peter_Shipton@ca.ibm.com>",
+      "date": "2025-03-10T13:48:50Z",
+      "raw_score": 75,
+      "score": 41,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 1888 lines modified",
+        "Changes 25 different files",
+        "Changes affect critical area: security",
+        "Adds 126 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "5eb8d0f4fafbba4381f0ff29a49166deda38f15c",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21320 from pshipton/sysprops6\n\nImplement JVM_GetProperties for jdk17+ (again)",
+      "date": "2025-03-12T12:53:43Z",
+      "raw_score": 75,
+      "score": 41,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Large change with 1888 lines modified",
+        "Changes 25 different files",
+        "Changes affect critical area: security",
+        "Adds 126 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "305e12b1e67b30b096306daee935978e439e97a2",
+      "author": "Babneet Singh",
+      "message": "JEP491: Never Deflate Monitors and Synchronize virtualThreadWaitCount\n\nCurrently, there are timing holes between\nJVM_TakeVirtualThreadListToUnblock and monitor deflation. A monitor can\nbe deflated while it is being accessed in\nJVM_TakeVirtualThreadListToUnblock. This leads to a NULL dereference\ncausing a segfault. Adding more synchronization will cause a\nsignificant overhead in the object monitor exit path. Until an\nefficient solution is developed, the policy to never deflate will be\nemployed in order to support JEP491. Since the current JEP491\nimplementation always inflates monitors before usage, deflating will be\ncounter-productive.\n\nAlso, added a null check for syncObjectMonitor in\nJVM_TakeVirtualThreadListToUnblock to ensure that the monitor is\ninflated before operations are performed on it.\n\nOperations on J9ObjectMonitor's virtualThreadWaitCount field may\nhappen out of sequence. To ensure correct ordering and consistency,\natomics have been employed to modify this field.\n\nRelated: #20705\n\nSigned-off-by: Babneet Singh <sbabneet@ca.ibm.com>",
+      "date": "2025-03-18T17:20:45Z",
+      "raw_score": 75,
+      "score": 41,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize, lock, atomic",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Adds 6 new control structures (increased complexity)"
+      ]
+    },
+    {
+      "sha": "7bf675828edc6d49661435a80b038b595056d6e8",
+      "author": "Nazim Bhuiyan",
+      "message": "Skip counting nodes for call graphs that can be folded away\n\nFor some call targets and their sub call graphs, it may be\npossible to simplify them into simple operations in certain\nsituations, such as when known object info is being passed\nas arg. In such cases, the node count obtained via\ngenerateNodeEstimate would not truly reflect the number of\nnodes that are actually introduced. This commit adds a\nmechanism that terminates recursive call target walk during\nnode count estimation when faced with call graphs that can\nbe simplified into simple operations.\n\nSigned-off-by: Nazim Bhuiyan <nubhuiyan@ibm.com>",
+      "date": "2025-02-27T00:56:55Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'perf' patterns",
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 0:00"
+      ]
+    },
+    {
+      "sha": "4e49a3bac10a3ec39bd56836cd88e94efb5e435c",
+      "author": "Shubham Verma",
+      "message": "Disable DAA optimization if vector facilities are not available\n\nDisable DAA optimiziation if vector packed decimal facilities aren't available.\nThis is a temporary fix to enable off-heap enablement while we continue to\ninvestigate the bug in non-vectorized pdload evaluator.\n\nSigned-off-by: Shubham Verma <shubhamv.sv@gmail.com>",
+      "date": "2025-02-27T18:29:45Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'perf' patterns",
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "eb5b49de0186a480428320d0701609a76c31cc88",
+      "author": "Rahil Shah",
+      "message": "Merge pull request #21220 from VermaSh/off-heap_daa_fix\n\nDisable DAA optimization if vector facilities are not available",
+      "date": "2025-03-03T21:50:58Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'perf' patterns",
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "47e00d8ad9acd017f981b9defc6c9f20d122c19e",
+      "author": "Babneet Singh",
+      "message": "Merge pull request #21197 from theresa-m/fix_ffi\n\nSupport heap memory for ffi CaptureCallState",
+      "date": "2025-03-03T22:25:34Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 22:00"
+      ]
+    },
+    {
+      "sha": "3ec9566312c48fb9f31574c2c22325afc453fa96",
+      "author": "Marius Pirvu",
+      "message": "Restart JIT activity when code cache allocations are freed\n\nCurrently, when the JIT cannot allocate code cache space anymore,\nit will set the `J9JIT_CODE_CACHE_FULL` flag in JITConfig and\ndisable further compilation. However, class unloading can free\ncode cache allocations allowing future JIT compilations to be\nperformed.\nThis commit disables setting the `_disableFurtherCompilation` flag\nonce the code cache runs out of space. Instead, it will check the\n`J9JIT_CODE_CACHE_FULL` flag to see if compilation requests should\nnot even be queued. The difference is that `_disableFurtherCompilation`\nis never reset while `J9JIT_CODE_CACHE_FULL` is reset after code\ncache deallocations. This resetting can be disabled with\n`-Xjit:disableClearCodeCacheFullFlag`\n\nSigned-off-by: Marius Pirvu <mpirvu@ca.ibm.com>",
+      "date": "2025-03-04T18:25:59Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'perf' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "b930d0ca25daadcc83a22f7b0cb23a026e821ac2",
+      "author": "Bradley Wood",
+      "message": "x86: check xcr0 in AOT compiles\n\nSigned-off-by: Bradley Wood <bradley.wood@ibm.com>",
+      "date": "2025-02-28T21:09:47Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'stub' patterns",
+        "Code has risky patterns: volatile",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "7ecfbd15127a88370e4835f39205c98fb9e14156",
+      "author": "Aleksandar Micic",
+      "message": "Enable offheap on X and P\n\nSigned-off-by: Aleksandar Micic <Aleksandar_Micic@ca.ibm.com>",
+      "date": "2025-03-06T21:35:45Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: allocation",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "430b6515f1fedcea4506dbe914e6d8f57efbd988",
+      "author": "Dmitri Pivkine",
+      "message": "Merge pull request #21298 from amicic/offheap_enabled\n\nEnable offheap on X and P",
+      "date": "2025-03-06T22:28:07Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: allocation",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 22:00"
+      ]
+    },
+    {
+      "sha": "09bf0ffcc1c893de5ce868b87c4176fc165927bc",
+      "author": "Peter Shipton",
+      "message": "Revert \"Enable offheap on X and P\"",
+      "date": "2025-03-07T13:19:17Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: allocation",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit message lacks descriptive content"
+      ]
+    },
+    {
+      "sha": "fd112fb389076fa7740db9b2984d6df12c9e0556",
+      "author": "Aleksandar Micic",
+      "message": "return NULL object spine if offheap full\n\nIn an unlikely case that Offheap is full, return NULL spine object,\nrather then valid spine object with NULL dataPtr.\n\nThis is the same how we handle individual arraylet region allocation\nfailures.\n\nSigned-off-by: Aleksandar Micic <Aleksandar_Micic@ca.ibm.com>",
+      "date": "2025-03-07T05:21:18Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 5:00"
+      ]
+    },
+    {
+      "sha": "4f09a6d2e61b41774df9feb7e721981fd925fa8d",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21310 from eclipse-openj9/revert-21241-aotXCR0checks\n\nRevert \"x86: check xcr0 in AOT compiles\"",
+      "date": "2025-03-07T20:59:21Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'stub' patterns",
+        "Code has risky patterns: volatile",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "84dc083b2ace028c8bd21b6926bdf27e2019a5b7",
+      "author": "Aleksandar Micic",
+      "message": "Displacement API for offheap using region flags\n\nImprove API for displacement calculation of stack referenced arrays for\noffheap to rely on region flags to determine the type of the movement\n(evacuate vs sliding). Previously the movement type was determined by\nRootScanner. But unlike standard platform threads, Virtual Threads\n(Continuations) are not roots and their stack walker does not\ninstantiate RootScanner.\n\nRelying on region flags (of source object) works for both types of\nthreads.\n\nSigned-off-by: Aleksandar Micic <Aleksandar_Micic@ca.ibm.com>",
+      "date": "2025-03-09T20:20:44Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, concurrent",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "42a921c1e2d946a8794c6981a09f9d1e8a73f60b",
+      "author": "Peter Shipton",
+      "message": "Revert \"Revert \"x86: check xcr0 in AOT compiles\"\"",
+      "date": "2025-03-10T16:09:46Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'stub' patterns",
+        "Code has risky patterns: volatile",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit message lacks descriptive content"
+      ]
+    },
+    {
+      "sha": "df48dd95a74fab209acf07afb60e7d50d82f4953",
+      "author": "Irwin D'Souza",
+      "message": "Ensure all JITServer compilation threads process CH Table Updates\n\nUnder very rare circumstances, it is possible for a JITServer\ncompilation thread processing a remote compilation request containing CH\nTable updates to side step processing the CH Table updates. The\nsequences of events that could lead to this is as follows:\n\n1. compThreadID=0 processes request seqNo=2 (isCritical=0) (criticalSeqNo=1 lastProcessedCriticalReq=1)\n2. compThreadID=1 processes request seqNo=1 (isCritical=1) (criticalSeqNo=0 lastProcessedCriticalReq=1)\n3. compThreadID=1 discards request because seqNo=2 was processed first\n4. compThreadID=0 requests full CH Table to initialize on the server\n5. compThreadID=1 processes request seqNo=3 (isCritical=1) (criticalSeqNo=1 lastProcessedCriticalReq=1)\n\nseqNo=1 and seqNo=3 contain CH Table updates; seqNo=2 does not. As such,\non the client when generating seqNo=3, it still only depends on seqNo=1.\nThis means that on the server, by step 4 above, both compThreadID=0 and\ncompThread=1 can reach the point where the code determines whether or\nnot to initialize the CH Table.\n\nUntil compThreadID=0 finishes initializing the CH Table, the\nclientSession->cachesAreCleared() flag remains true. This causes\ncompThreadID=1 to block on the monitor guarding the initialization code.\nOnce compThreadID=0 is done initializing the CH Table, compThreadID=1 on\nlonger sees clientSession->cachesAreCleared() as true (after it\nunblocks).\n\nHowever, the way the code is structured, this results in compThreadID=1\nnot executing any code that processes the CH Table updates associated\nwith its compilation request.\n\nThis commit fixes this by restructuring the code to ensure that all\nthreads either execute the CH Table initialization code or the CH Table\nupdates code.\n\nSigned-off-by: Irwin D'Souza <dsouzai.gh@gmail.com>",
+      "date": "2025-03-10T19:35:20Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 19:00"
+      ]
+    },
+    {
+      "sha": "7f8c5b127a9718179bf4d102268d28c88d3124ca",
+      "author": "Shubham Verma",
+      "message": "Use 32bit compare for array size in inline array allocation sequence\n\nWe need to use 32 bit compare because the top half of the size reg can contain\nclass pointer. On z, Class pointer is written to top half by IIHF in\ngenInitObjectHeader. I have updated the compare instruction on x as well to\navoid future issues related to garbage in top half of the size register.\n\nSigned-off-by: Shubham Verma <shubhamv.sv@gmail.com>",
+      "date": "2025-03-06T22:07:54Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: memory",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 22:00"
+      ]
+    },
+    {
+      "sha": "df442101547c9d76bb3b275662455f65048ac142",
+      "author": "Marius Pirvu",
+      "message": "Merge pull request #21331 from dsouzai/postRestoreCompThreads\n\nDon't resume more than one comp thread if the queue weight is 0",
+      "date": "2025-03-12T02:44:52Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 2:00"
+      ]
+    },
+    {
+      "sha": "e6e2efd8532b681f4dbab0af408196505e9f9183",
+      "author": "Marius Pirvu",
+      "message": "Merge pull request #21326 from dsouzai/jitserverassertion\n\nEnsure all JITServer compilation threads process CH Table Updates",
+      "date": "2025-03-12T02:47:02Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 2:00"
+      ]
+    },
+    {
+      "sha": "b281c110bf3b299b975c56a61661be342dff9dec",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21333 from hangshao0/FixSCC\n\nUnprotect header when modifying extraStartupHints",
+      "date": "2025-03-12T02:48:42Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 2:00"
+      ]
+    },
+    {
+      "sha": "610778c249b17dcf2922adf656bdea52bfbb1eb7",
+      "author": "Aleksandar Micic",
+      "message": "Enable offheap on X, P and A\n\nSigned-off-by: Aleksandar Micic <Aleksandar_Micic@ca.ibm.com>",
+      "date": "2025-03-13T19:07:17Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: allocation",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 19:00"
+      ]
+    },
+    {
+      "sha": "d95717cbabb390da926b7324a9a7519092318b3d",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21348 from amicic/offheap_enabled\n\nEnable offheap on X, P and A",
+      "date": "2025-03-13T21:21:11Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: allocation",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "fee3ee504f5ec5e76d767e87a459e8e10e0a5205",
+      "author": "Aleksandar Micic",
+      "message": "currentThread for debug messages in indexableDataDisplacement\n\nUser currentThread, rather than walkThread when fetching omrVMThread and\nGC environment struct for debug message printing purposes in VLHGC\nindexableDataDisplacement.\n\nIf the walk thread is a Continuation, there is no omrVMThread struct\nassociated with it.\n\nSigned-off-by: Aleksandar Micic <Aleksandar_Micic@ca.ibm.com>",
+      "date": "2025-03-16T20:08:22Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "abda4707011bbffee55da23641fc5d2c8e9c4542",
+      "author": "tajila",
+      "message": "IMSE support for vthreads\n\nSigned-off-by: tajila <atobia@ca.ibm.com>",
+      "date": "2025-03-14T21:09:27Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "9b385eb9c2466e0e5e042b0771f4137d80d2eaaa",
+      "author": "Gengchen Tuo",
+      "message": "Add raw thread state to Java core dump and JFR ThreadDump\n\nSigned-off-by: Gengchen Tuo <gengchen.tuo@ibm.com>",
+      "date": "2025-03-17T20:35:45Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: core",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "d79ddbfcb54a0e2e743435524d3928a3a820c764",
+      "author": "Jack Lu",
+      "message": "Fix Object.wait logic\n\n- Throw InterruptedException on return fom vthread wait if interrupted field is set\n- Add timeout value to vthread object\n\nSigned-off-by: Jack Lu <Jack.S.Lu@ibm.com>",
+      "date": "2025-03-11T20:18:33Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'expect' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "946e97f94c80fd4983b3882863a4be38531ee461",
+      "author": "Babneet Singh",
+      "message": "Merge pull request #21361 from fengxue-IS/jep491-interrupt\n\nFix Object.wait logic for vthread",
+      "date": "2025-03-18T20:32:00Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'expect' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "7039ea1e468b582500bfa82b1e488a1c0e0fd407",
+      "author": "Tobi Ajila",
+      "message": "Move arg parsing of continuation options\n\nPreviously, continuation options are parsed after thread parsing which\nmeans deflation policies do not take effect. This PR corrects this.\n\nSigned-off-by: Tobi Ajila <atobia@ca.ibm.com>",
+      "date": "2025-03-19T18:52:49Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "26699e323485b64b4165d89a77c2d84272917844",
+      "author": "Babneet Singh",
+      "message": "Merge pull request #21427 from tajila/vt2\n\nMove arg parsing of continuation options",
+      "date": "2025-03-19T20:55:29Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "caa6ebfaa863f0c5f13dd13ce62960ab3b32744f",
+      "author": "Tobi",
+      "message": "Merge pull request #21389 from babsingh/vt1\n\nEnable yielding of pinned continuations by default",
+      "date": "2025-03-20T03:11:42Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 3:00"
+      ]
+    },
+    {
+      "sha": "d71acdcb2b1f8d720ec1c79c642309f206a8596e",
+      "author": "tajila",
+      "message": "Build frame in blocking vthread monenter\n\nA frame needs to be built before attempting a stack walk in vthread\nmonenter to find owned monitors. Failure to do so may result in a crash.\n\nSigned-off-by: tajila <atobia@ca.ibm.com>",
+      "date": "2025-03-19T20:59:07Z",
+      "raw_score": 70,
+      "score": 38,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "53e3d9df6ac9e5a1c1a2263da4b815bc409676d8",
+      "author": "Nazim Bhuiyan",
+      "message": "Enable peeking ILGen for methods involved in HashMap operations\n\nTo propagate arg info from callers of HashMap.put, HashMap.get, and\nObject.hashCode, generating IL of their callers is necessary when\ncalled from an inlined method. This allows us to propagate prex\narg info from caller and enable compile-time folding of\nfastIdentityHashCode calls.\n\nSigned-off-by: Nazim Bhuiyan <nubhuiyan@ibm.com>",
+      "date": "2025-02-20T16:55:27Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: memory",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "24215b642253d08191a47d0df5a86db4d3f5e165",
+      "author": "Nazim Bhuiyan",
+      "message": "Repurpose recursivelyWalkCallTargetAndPerformAction\n\nThis routine was only being used for recursively walking call\ntargets and counting nodes, despite being designed to perform\nany \"action\". It was not going to work for any action other\nthan generateNodeEstimate as the debugTrace message relied\non calling generateNodeEstimate::getNodeEstimate.\n\nThis commit repurposes this function to only be used for node\ncounting, rather than any \"action\", and renames the function\naccordingly.\n\nSigned-off-by: Nazim Bhuiyan <nubhuiyan@ibm.com>",
+      "date": "2025-02-28T17:48:44Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'perf' patterns",
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "bf0a1005e26b3176d5a09c088a883ea58f5d353b",
+      "author": "Jason Feng",
+      "message": "CRIUSupport supports only one singleton instance\n\nInternalCRIUSupport has only one singleton instance as well;\nUpdated test usages.\n\nSigned-off-by: Jason Feng <fengj@ca.ibm.com>",
+      "date": "2025-02-26T15:59:37Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, synchronize, concurrent, lock",
+        "Large change with 330 lines modified",
+        "Changes 10 different files",
+        "Changes affect critical area: security"
+      ]
+    },
+    {
+      "sha": "28e013ce84fd78a5926ddd8685675a891409904e",
+      "author": "Aleksandar Micic",
+      "message": "Reorder handling of JNI critical between offheap and discontiguous\n\nIn presence of double mapping code (which we recently reintroduced),\nhandling of discontiguous arrays (including 0-sized) ones should be done\nbefore handling offheap case. Otherwise offheap case will incorrectly\nuse isDataAdjacentToHeader API, what could be a 0-size array, and that\nAPI assumes that array is contiguous.\n\nSigned-off-by: Aleksandar Micic <Aleksandar_Micic@ca.ibm.com>",
+      "date": "2024-12-05T18:32:39Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "878b3c4e7d3da82cdb03e3db104a342e3818645d",
+      "author": "Theresa Mammarella",
+      "message": "Support heap memory for ffi CaptureCallState\n\nSigned-off-by: Theresa Mammarella <Theresa.T.Mammarella@ibm.com>",
+      "date": "2025-02-27T14:55:02Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, synchronize",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "ad6eabb461deec92c11ab9a5bc3f9d1fb2977deb",
+      "author": "Dmitri Pivkine",
+      "message": "Merge pull request #21254 from amicic/offheap_doublemapping_jni_critical\n\nReorder handling of JNI critical between offheap and discontiguous",
+      "date": "2025-03-04T01:10:06Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 1:00"
+      ]
+    },
+    {
+      "sha": "1e5cec9f5c1a8052052f779a6560ad9dcb99d302",
+      "author": "Peter Shipton",
+      "message": "Update to OpenSSL 3.0.16\n\nSigned-off-by: Peter Shipton <Peter_Shipton@ca.ibm.com>",
+      "date": "2025-03-04T21:16:49Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: config",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "9ed344211e8268be2bd0e90308d21c6436d1c2fa",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21275 from pshipton/openssl3.0.16\n\nUpdate to OpenSSL 3.0.16",
+      "date": "2025-03-05T04:22:04Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: config",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 4:00"
+      ]
+    },
+    {
+      "sha": "9dce4dc82d79b86f01aff9cf23859aa72d73eb3d",
+      "author": "Irwin D'Souza",
+      "message": "Merge pull request #21271 from mpirvu/codecache_full\n\nRestart JIT activity when code cache allocations are freed",
+      "date": "2025-03-05T13:57:16Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'perf' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "774e298d762c526e0036c0b5dfc1ea0b5069d426",
+      "author": "Babneet Singh",
+      "message": "Remove J9JavaVM from takeVirtualThreadListToUnblock's parameter list\n\nJ9JavaVM is now retrieved from currentThread, simplifying the code.\n\nSigned-off-by: Babneet Singh <sbabneet@ca.ibm.com>",
+      "date": "2025-03-05T16:17:28Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "9f917f586505ff9d4b20c374481555ce6f99c88f",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21287 from babsingh/main12\n\nRemove J9JavaVM from takeVirtualThreadListToUnblock's parameter list",
+      "date": "2025-03-05T17:21:04Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "c94546d9434d9d0116a024066ca2f11d65b11c1f",
+      "author": "Tobi",
+      "message": "Merge pull request #21225 from JasonFengJ9/criusingleton\n\nCRIUSupport supports only one singleton instance",
+      "date": "2025-03-06T11:37:35Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, synchronize, concurrent, lock",
+        "Large change with 330 lines modified",
+        "Changes 10 different files",
+        "Changes affect critical area: security"
+      ]
+    },
+    {
+      "sha": "59def09e71ea3162269f58ea58f56ce7598ee154",
+      "author": "lhu",
+      "message": "Optimize handling enableVirtualLargeObjectHeap cmdline option\n\n1, isVirtualLargeObjectHeapEnabled = false on all gcpolicies.\n2, if user specify -XXgc:enableVirtualLargeObjectHeap on\nBalanced GC, off heap can be enabled.\n3, -XXgc:disableVirtualLargeObjectHeap/\nenableVirtualLargeObjectHeap would be ignored on the rest of gcpolicies.\n4, if user specify -XXgc:enableVirtualLargeObjectHeap on\ngcpolicy:metronome, JVM would output warning message.\n\nSigned-off-by: lhu <linhu@ca.ibm.com>",
+      "date": "2025-03-05T13:46:26Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "2fee7aa1fc3bec169db3e3376dfb199d099459d3",
+      "author": "Aleksandar Micic",
+      "message": "Merge pull request #21281 from LinHu2016/enable-offheap-default_2\n\nOptimize handling enableVirtualLargeObjectHeap cmdline option",
+      "date": "2025-03-06T14:50:42Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "dee178319d16c63318138bf92f7ba31dcdd4f6f8",
+      "author": "Aleksandar Micic",
+      "message": "Restore #endif in createHeapWithManager\n\nUnintentionally removed by\nhttps://github.com/eclipse-openj9/openj9/pull/21281\n\nSigned-off-by: Aleksandar Micic <Aleksandar_Micic@ca.ibm.com>",
+      "date": "2025-03-06T15:41:19Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: allocation",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "9e9d007c7229e4615b1c050346662fe407e81e5d",
+      "author": "Dmitri Pivkine",
+      "message": "Merge pull request #21296 from amicic/restore_endif\n\nRestore #endif in createHeapWithManager",
+      "date": "2025-03-06T15:44:51Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: allocation",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "b3215af38fe1751e512c54dc8e8508bf6e13c63e",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21305 from eclipse-openj9/revert-21298-offheap_enabled\n\nRevert \"Enable offheap on X and P\"",
+      "date": "2025-03-07T13:19:45Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: allocation",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "8adca0ea3965aab4fae1be3ace8d23dfdee78721",
+      "author": "Daryl Maier",
+      "message": "Merge pull request #21241 from BradleyWood/aotXCR0checks\n\nx86: check xcr0 in AOT compiles",
+      "date": "2025-03-07T14:03:29Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'stub' patterns",
+        "Code has risky patterns: volatile",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "96b1831fcdd85f4d2be9263caaabe4974b14dea0",
+      "author": "Spencer Comin",
+      "message": "Accelerate Java bit compress and expand methods\n\nThis commit maps the following methods to IL opcodes:\n - Integer.compress to icompressbits\n - Integer.expand to iexpandbits\n - Long.compress to lcompressbits\n - Long.expand to lexpandbits\n\nSigned-off-by: Spencer Comin <spencer.comin@ibm.com>",
+      "date": "2024-11-26T19:36:58Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: optimize",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 19:00"
+      ]
+    },
+    {
+      "sha": "e2aa6ec8bd6a1ec499519bc03bc959c93203cd29",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21321 from eclipse-openj9/revert-21310-revert-21241-aotXCR0checks\n\nx86: check xcr0 in AOT compiles (again)",
+      "date": "2025-03-10T16:10:48Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'stub' patterns",
+        "Code has risky patterns: volatile",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "4dac1a85bd9d3e9ad5296447e92eaffcbe859bdb",
+      "author": "Dmitri Pivkine",
+      "message": "Kill MM_SparseVirtualMemory at shutdown\n\nClass MM_SparseVirtualMemory shouldbe killed at shutdown\n\nSigned-off-by: Dmitri Pivkine <Dmitri_Pivkine@ca.ibm.com>",
+      "date": "2025-03-10T18:37:02Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: concurrent",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "3f1ce815d6c32a9848545723241e901298892b29",
+      "author": "Dmitri Pivkine",
+      "message": "Merge pull request #21317 from amicic/displacement_offheap_continuation\n\nDisplacement API for offheap using region flags",
+      "date": "2025-03-11T11:22:33Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, concurrent",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "e4971ed20f49ca4824b1705c02fc5d0c44bc205c",
+      "author": "Irwin D'Souza",
+      "message": "Don't resume more than one comp thread if the queue weight is 0\n\nSigned-off-by: Irwin D'Souza <dsouzai.gh@gmail.com>",
+      "date": "2025-03-11T16:22:07Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "346e61f6a6f12e8b00cb8f6636e02a2e20e7c27d",
+      "author": "Hang Shao",
+      "message": "Unprotect header when modifying extraStartupHints\n\nFixes #21315\n\nSigned-off-by: Hang Shao <hangshao@ca.ibm.com>",
+      "date": "2025-03-10T15:35:58Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "7cba308722d8fc6e492c26a82c282d87b6ca24f4",
+      "author": "Rahil Shah",
+      "message": "Merge pull request #21306 from VermaSh/inlineAllocationFix\n\nUse 32bit compare for array size in inline array allocation sequence",
+      "date": "2025-03-12T12:41:57Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: memory",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "f9945bb01a8e6aaa2f2c53d30f610ac68e1f68b4",
+      "author": "Keith W. Campbell",
+      "message": "Fix a few typos\n\nSigned-off-by: Keith W. Campbell <keithc@ca.ibm.com>",
+      "date": "2025-03-12T13:04:33Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "0c17bb52deb31ca34a9930001672bbd07f151b53",
+      "author": "Rahil Shah",
+      "message": "Merge pull request #21337 from keithc-ca/typos\n\nFix a few typos",
+      "date": "2025-03-12T13:18:05Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "2b1ec1c1d85a5856b920ad59490b83220c18df88",
+      "author": "Henry Zongaro",
+      "message": "Merge pull request #21332 from BradleyWood/checkColdBlock\n\nx86: call cg->getCurrentBlock() instead of node->getBlock()",
+      "date": "2025-03-12T23:13:46Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 23:00"
+      ]
+    },
+    {
+      "sha": "be0196b37870640bbe8ab245d17ff3082156efb5",
+      "author": "Dmitri Pivkine",
+      "message": "Merge pull request #21307 from amicic/offheap_failed_alloc\n\nreturn NULL object spine if offheap full",
+      "date": "2025-03-13T12:03:04Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "330959cfa13b9b1fd6da4a102fe2e0cd473d6c07",
+      "author": "Henry Zongaro",
+      "message": "Merge pull request #19202 from Spencer-Comin/compress-expand-opcodes\n\nAccelerate Integer/Long compress/expand methods",
+      "date": "2025-03-13T12:46:49Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: optimize",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "d9569dd5784fd6390321eaf641d96f9aaa60ed19",
+      "author": "Graham Chapman",
+      "message": "Merge pull request #21340 from tajila/jfrtest\n\nFix owner for JFR monitor enter",
+      "date": "2025-03-13T18:25:04Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, synchronize, lock, atomic",
+        "Changes 6 different files",
+        "Changes affect critical area: runtime",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "eac2531c1e0e699eb1086d704be762f8159027b1",
+      "author": "Tobi",
+      "message": "Merge pull request #21342 from babsingh/main12\n\nVirtual Threads: Bug fixes for JEP491",
+      "date": "2025-03-13T21:48:33Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "78878f2f277c3cb4a40cdb82475fc1caa1ec605e",
+      "author": "Dmitri Pivkine",
+      "message": "Merge pull request #21358 from amicic/displacement_offheap_continuation\n\ncurrentThread for debug messages in indexableDataDisplacement",
+      "date": "2025-03-17T11:58:29Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "2b33c84059f2463ecd1416e2c44a9b8f555e58db",
+      "author": "Babneet Singh",
+      "message": "Merge pull request #21359 from tajila/vt2\n\nIMSE support for vthreads",
+      "date": "2025-03-17T17:52:10Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "b5849ba02cd74948641a19e48b4ef56c06d2439c",
+      "author": "Gaurav Chaudhari",
+      "message": "Open XL attribute packed and misc fixes\n\nThese changes includes some of the uncategorized fixes,\nheader fixes and the recommended __attribute__((packed))\nnotation usage that works with both Open XL and XLC.\n\nSigned-off-by: Gaurav Chaudhari <gaurav.chaudhari@ibm.com>",
+      "date": "2024-07-22T18:35:45Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: memory, new ",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "c08b414c692a45c12b96fe170f8a97cbd8d1d4c0",
+      "author": "Rahil Shah",
+      "message": "Merge pull request #19900 from Deigue/openxl-fixes-1\n\nOpen XL attribute packed and misc fixes",
+      "date": "2025-03-17T18:31:00Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: memory, new ",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "dd7725afce409daf6284b9a8f43e6282629f1484",
+      "author": "Tobi",
+      "message": "Merge pull request #21368 from thallium/threaddump\n\nAdd raw thread state to Java core dump and JFR ThreadDump",
+      "date": "2025-03-18T16:24:04Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: core",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "fe33768f441bd89005f2d94e1ed27f893d5fc1a6",
+      "author": "Babneet Singh",
+      "message": "Enable yielding of pinned continuations by default\n\nSigned-off-by: Babneet Singh <sbabneet@ca.ibm.com>",
+      "date": "2025-03-18T17:43:36Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "e5890581be629926f6d928c1648415fae6d071d3",
+      "author": "Peter Shipton",
+      "message": "Revert \"Prevent callers of big callees getting marked as big during ECS\"",
+      "date": "2025-03-19T21:53:04Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "8e6f5dbc40df86b88e2e0498b3b633011046802b",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21430 from eclipse-openj9/revert-21364-bigcalleesize\n\nRevert \"Prevent callers of big callees getting marked as big during ECS\"",
+      "date": "2025-03-19T21:53:16Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "7bf5f1a439c47b7a0042710b7f9906ff8bc0b61e",
+      "author": "Babneet Singh",
+      "message": "Merge pull request #21428 from tajila/vt2\n\nBuild frame in blocking vthread monenter",
+      "date": "2025-03-20T13:22:28Z",
+      "raw_score": 60,
+      "score": 33,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "fb6c2dc747165ce7dd86a9feb0177b696816e8d5",
+      "author": "Spencer Comin",
+      "message": "x86: Enable BMI2 extension\n\nSigned-off-by: Spencer Comin <spencer.comin@ibm.com>",
+      "date": "2024-11-26T19:36:51Z",
+      "raw_score": 55,
+      "score": 30,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 19:00"
+      ]
+    },
+    {
+      "sha": "36382ff89394dc8c0203535b8e766baf78ae630a",
+      "author": "Babneet Singh",
+      "message": "Update ifdef comments in bindnatv.cpp\n\nSigned-off-by: Babneet Singh <sbabneet@ca.ibm.com>",
+      "date": "2025-03-03T22:48:46Z",
+      "raw_score": 55,
+      "score": 30,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 22:00"
+      ]
+    },
+    {
+      "sha": "54fa206273a0aa19a5ac3c2f666d7a84c63cebd8",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21257 from babsingh/main12\n\nUpdate ifdef comments in bindnatv.cpp",
+      "date": "2025-03-03T22:55:57Z",
+      "raw_score": 55,
+      "score": 30,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 22:00"
+      ]
+    },
+    {
+      "sha": "00b44874626df62a6570af72adcde8af1dc9e3e4",
+      "author": "AdamBrousseau",
+      "message": "Merge pull request #21283 from mahdipub/xcode15.2_build\n\nreplace os specific labels for mac aarch,x64 with sw.tool.xcode.15_2",
+      "date": "2025-03-06T18:54:58Z",
+      "raw_score": 55,
+      "score": 30,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: lock",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "0109bc472785a9e16bc88ed7bd4eac0fcb82e372",
+      "author": "Abdulrahman Alattas",
+      "message": "Guard ArrayStoreCHK early subtree eval tree shape",
+      "date": "2025-03-08T19:39:21Z",
+      "raw_score": 55,
+      "score": 30,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 19:00"
+      ]
+    },
+    {
+      "sha": "ee64e344f2d4e90e06bafedcfb98ff6537f91063",
+      "author": "Julian Wang",
+      "message": "Merge pull request #21323 from rmnattas/z-arrstrchk\n\nGuard ArrayStoreCHK early subtree eval tree shape",
+      "date": "2025-03-20T23:03:48Z",
+      "raw_score": 55,
+      "score": 30,
+      "category": "Likely Problematic",
+      "reasons": [
+        "Changed code contains 'assert' patterns",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 23:00"
+      ]
+    }
+  ],
+  "safe_commits": [
+    {
+      "sha": "91b60321c1399c4d5597be0227a152a7afd09e4f",
+      "author": "Gengchen Tuo",
+      "message": "Remove JvmtiMountTransition annotation from Continuation.enter()\n\nJvmtiMountTransition was added by mistake in\nhttps://github.com/eclipse-openj9/openj9/pull/21084\n\nFixes: https://github.com/eclipse-openj9/openj9/issues/21186\nhttps://github.com/eclipse-openj9/openj9/issues/21185\nSigned-off-by: Gengchen Tuo <gengchen.tuo@ibm.com>",
+      "date": "2025-02-28T17:48:52Z",
+      "raw_score": 35,
+      "score": 19,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: lock",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "bc7ac0f24449044615c80b62adedacc0055b651c",
+      "author": "Nazim Bhuiyan",
+      "message": "Add recognized methods java_util_HashMap_put/hash\n\nSigned-off-by: Nazim Bhuiyan <nubhuiyan@ibm.com>",
+      "date": "2025-02-21T20:10:17Z",
+      "raw_score": 45,
+      "score": 25,
+      "category": "Safe",
+      "reasons": [
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "4e5d2264d93b860ca9d97c1eb340e35c39bd48e9",
+      "author": "tajila",
+      "message": "Exclude jfr event tests on JDK11\n\nRelated to: https://github.com/eclipse-openj9/openj9/issues/21242\n\nSigned-off-by: tajila <atobia@ca.ibm.com>",
+      "date": "2025-03-01T18:33:11Z",
+      "raw_score": 20,
+      "score": 11,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "f5141a6bb7df5d64ae45bbb9050e2d13bc156b94",
+      "author": "Babneet Singh",
+      "message": "Merge pull request #21236 from thallium/fix\n\nRemove JvmtiMountTransition annotation from Continuation.enter()",
+      "date": "2025-03-03T21:49:17Z",
+      "raw_score": 45,
+      "score": 25,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: lock",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "39368ae517ea84efadbbd72d09cdbc378fa8bb9a",
+      "author": "Keith W. Campbell",
+      "message": "Remove unused import and non-existent @param\n\nSigned-off-by: Keith W. Campbell <keithc@ca.ibm.com>",
+      "date": "2025-03-03T22:50:51Z",
+      "raw_score": 40,
+      "score": 22,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 22:00"
+      ]
+    },
+    {
+      "sha": "3c6fa084e657e5f0128087102366725c1df49e6e",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21259 from keithc-ca/small\n\nRemove unused import and non-existent @param",
+      "date": "2025-03-04T00:20:35Z",
+      "raw_score": 40,
+      "score": 22,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 0:00"
+      ]
+    },
+    {
+      "sha": "1581ac8f412f2f3b22adda42834d0888eb30dd07",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21243 from tajila/jfr3\n\nExclude jfr event tests on JDK11",
+      "date": "2025-03-04T15:29:49Z",
+      "raw_score": 10,
+      "score": 5,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns"
+      ]
+    },
+    {
+      "sha": "06e7899bc27b5141ea1ebb2781d3ac2cfaa12536",
+      "author": "Anna Babu Palathingal",
+      "message": "Remove JFR:required tag in playlist\n\n- Remove JFR feature tag in playlist\n\nrelated:https://github.com/eclipse-openj9/openj9/issues/21269\n\nSigned-off-by: Anna Babu Palathingal <anna.bp@ibm.com>",
+      "date": "2025-03-04T17:46:24Z",
+      "raw_score": 10,
+      "score": 5,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns"
+      ]
+    },
+    {
+      "sha": "0fba63c1941caf926699ebe716a380687965fbf4",
+      "author": "Theresa Mammarella",
+      "message": "Revert \"Add -Xdump debug option for ValueTypeTests\"\n\nThis reverts commit 9c9ca49ad6fe5a160ce47f496df43a3f0d1a8e36.",
+      "date": "2025-03-04T18:56:08Z",
+      "raw_score": 20,
+      "score": 11,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "cd6a33d6dfb6325c5151caf29afe78a83c0a8d09",
+      "author": "Lan Xia",
+      "message": "Merge pull request #21270 from annaibm/removeJFRFeatureATag\n\nRemove JFR:required tag in playlist",
+      "date": "2025-03-04T19:56:40Z",
+      "raw_score": 20,
+      "score": 11,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Commit made at unusual hour: 19:00"
+      ]
+    },
+    {
+      "sha": "9f49b942c3915e7c23aff5918adcf9888d7cb9c0",
+      "author": "Irwin D'Souza",
+      "message": "Fix bug in TR_IPBCDataFourBytes::getSumBranchCount\n\nTR_IPBCDataFourBytes::getSumBranchCount returns the sum of the two\nbranch counters. Internally these are stored as two 16 bit integers.\ngetSumBranchCount is called only by TR_IProfiler::getSamplingCount which\nreturns a int32_t. However, TR_IPBCDataFourBytes::getSumBranchCount sums\nup the two 16 bit integers as uint16_ts and returns a int16_t. This has\nthe consequence of sometimes returning a negative number because of\noverflow.\n\nThis commit fixes this by consistently using int32_t.\n\nSigned-off-by: Irwin D'Souza <dsouzai.gh@gmail.com>",
+      "date": "2025-03-04T20:37:54Z",
+      "raw_score": 45,
+      "score": 25,
+      "category": "Safe",
+      "reasons": [
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "fd2b4466e08b2535f714d52070a2ba3b35fe3b10",
+      "author": "Hang Shao",
+      "message": "Merge pull request #21272 from theresa-m/fix_20189\n\nRevert \"Add -Xdump debug option for ValueTypeTests\"",
+      "date": "2025-03-04T21:08:17Z",
+      "raw_score": 20,
+      "score": 11,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "cbcc870cfe3092cea41afa80cb1b0eba2ad7366a",
+      "author": "Aleksandar Micic",
+      "message": "Relax SoftMx test passing criteria\n\nAllow that test passes if heap contracts to exact SoftMx value\n(previously, required to be `less then`, what was unnecessarily strict)\n\nSigned-off-by: Aleksandar Micic <Aleksandar_Micic@ca.ibm.com>",
+      "date": "2024-12-05T18:32:39Z",
+      "raw_score": 35,
+      "score": 19,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: memory, free",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "23b2cdcf21ee6a412991fc2253f00bb17a082fb2",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21276 from amicic/softmx_test_relax\n\nRelax SoftMx test passing criteria",
+      "date": "2025-03-05T03:09:45Z",
+      "raw_score": 35,
+      "score": 19,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: memory, free",
+        "Commit made at unusual hour: 3:00"
+      ]
+    },
+    {
+      "sha": "4d799e0f717fe7805256166f128b20a66d4c46dc",
+      "author": "Marius Pirvu",
+      "message": "Merge pull request #21274 from dsouzai/fixgetSumBranchCount\n\nFix bug in TR_IPBCDataFourBytes::getSumBranchCount",
+      "date": "2025-03-05T03:15:12Z",
+      "raw_score": 45,
+      "score": 25,
+      "category": "Safe",
+      "reasons": [
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 3:00"
+      ]
+    },
+    {
+      "sha": "eea7d48b2a4f2f86cbbc7894bb9b2fb1f8165e36",
+      "author": "Mahdi Ardekanian",
+      "message": "replace os specific labels for mac aarch,x64 with sw.tool.xcode.15_2\n\nRelated changes to build base on XCode level rather os specified version. related: runtimes/infrastructure#8105. Also unnecessary additionalTestLables related to mac_10_11 removes as those nodes are not exists anymore and the fact that test framework set labels in logic. e.g here\n\nSigend-off-by: mahdi@ibm.com",
+      "date": "2025-03-05T14:47:51Z",
+      "raw_score": 45,
+      "score": 25,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: lock",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "d78b6095be5e7a79d8b34890a7f42a7312bcc9c6",
+      "author": "Peter Shipton",
+      "message": "For jdk24+ set the default encoding to UTF-8\n\nIssue https://github.com/eclipse-openj9/openj9/issues/21204\n\nSigned-off-by: Peter Shipton <Peter_Shipton@ca.ibm.com>",
+      "date": "2025-03-05T14:55:05Z",
+      "raw_score": 30,
+      "score": 16,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "40febba0c4d91850a90b5611721676f417ac7bac",
+      "author": "Aleksandar Micic",
+      "message": "SoftMx test, touch memory\n\nWhen allocating large arrays we now touch memory. This should help with\nmore precise/deterministic calculation of OS physical free memory.\n\nThis is particularly important for Balanced Offheap, which has lazy\ncommit of newly allocated Offheap arrays.\n\nSigned-off-by: Aleksandar Micic <Aleksandar_Micic@ca.ibm.com>",
+      "date": "2024-12-05T18:32:39Z",
+      "raw_score": 35,
+      "score": 19,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: memory, new ",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "de6f631bf53183e8d84b7b4831e81de63eb3ca67",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21285 from pshipton/defutf8\n\nFor jdk24+ set the default encoding to UTF-8",
+      "date": "2025-03-05T20:35:10Z",
+      "raw_score": 40,
+      "score": 22,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "7ce2c018ee828c2ab5828d4ff7688d463a4a81e7",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21290 from amicic/softmx_test_touch\n\nSoftMx test, touch memory",
+      "date": "2025-03-05T20:41:56Z",
+      "raw_score": 35,
+      "score": 19,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: memory, new ",
+        "Commit made at unusual hour: 20:00"
+      ]
+    },
+    {
+      "sha": "6dc22be1d7caef2ceeb7d624e26dfeedaca5ad93",
+      "author": "Gengchen Tuo",
+      "message": "Fix JFR ThreadPark support\n\nThe \"timeout\" and \"until\" fields weren't correctly initialized.\n\nFixes: https://github.com/eclipse-openj9/openj9/issues/21242\nRelated: https://github.com/eclipse-openj9/openj9/pull/20885\nSigned-off-by: Gengchen Tuo <gengchen.tuo@ibm.com>",
+      "date": "2025-03-06T21:53:46Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime",
+        "Commit made at unusual hour: 21:00"
+      ]
+    },
+    {
+      "sha": "1be02821312c6b66a58258e45b1ffe849b842b74",
+      "author": "Tobi",
+      "message": "Merge pull request #21299 from thallium/jfr-fix\n\nFix JFR ThreadPark support",
+      "date": "2025-03-07T13:18:10Z",
+      "raw_score": 40,
+      "score": 22,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: runtime"
+      ]
+    },
+    {
+      "sha": "a9855cf7bf04367fbccb5b11edd33de45e3c6c08",
+      "author": "Peter Shipton",
+      "message": "No need to check file.encoding.pkg during boot since it's not used\n\nRelated to https://github.com/eclipse-openj9/openj9/pull/21172\n\nSigned-off-by: Peter Shipton <Peter_Shipton@ca.ibm.com>",
+      "date": "2025-03-10T18:48:52Z",
+      "raw_score": 40,
+      "score": 22,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Changes production code without updating tests",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "a840d4acb1b183b7fea9b969da1078f2d487e4cd",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21324 from pshipton/fencpkg\n\nNo need to check file.encoding.pkg during boot since it's not used",
+      "date": "2025-03-11T13:45:56Z",
+      "raw_score": 30,
+      "score": 16,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "1c420ec20e03a3dbf51928438448ba593e7f416b",
+      "author": "Bradley Wood",
+      "message": "x86: call cg->getCurrentBlock() instead of node->getBlock()\n\nSigned-off-by: Bradley Wood <bradley.wood@ibm.com>",
+      "date": "2025-03-11T17:54:46Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "9712a35045dadc3593fcdbe7cf8eeafbcf10308c",
+      "author": "Aleksandar Micic",
+      "message": "Merge pull request #21327 from dmitripivkine/master\n\nKill MM_SparseVirtualMemory at shutdown",
+      "date": "2025-03-12T15:40:44Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: concurrent",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "be4088f0a3bd900d8e174c69473ff5b7fc9f1109",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21289 from thallium/image-reader\n\nInitialize ImageReader during boot",
+      "date": "2025-03-12T17:02:14Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread",
+        "Large change with 214 lines modified",
+        "Changes affect critical area: runtime"
+      ]
+    },
+    {
+      "sha": "17e5f7ee48c6e1b5772d3b23977243ea261fc1bc",
+      "author": "Abdulrahman Alattas",
+      "message": "Use index for boundary check and offset for dest in str.inflate\n\nAlso consolidate OffHeap and non-OffHeap paths.",
+      "date": "2025-03-10T17:13:37Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: allocation",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "f5a031fefb2856f8c249ebf4392a807e353e0ad1",
+      "author": "Tobi Ajila",
+      "message": "Fix owner for JFR monitor enter\n\n- Fix Owner for JFR monitor enter\n- Add tests to validate monitor enter events\n\nSigned-off-by: Tobi Ajila <atobia@ca.ibm.com>",
+      "date": "2025-03-12T14:36:14Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: Thread, synchronize, lock, atomic",
+        "Changes 6 different files",
+        "Changes affect critical area: runtime"
+      ]
+    },
+    {
+      "sha": "592b97d65e62aa487120fe5c54f87ee4cd66765b",
+      "author": "Henry Zongaro",
+      "message": "Merge pull request #21322 from rmnattas/oh-gvp\n\nUse index for boundary check and offset for dest in str.inflate OffHeap",
+      "date": "2025-03-13T12:18:44Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: allocation",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "c963071fe4296e09304a563506db1b8c283e159e",
+      "author": "Babneet Singh",
+      "message": "Correctly derive an inflated object monitor\n\nA null object monitor is being passed to detachMonitorInfo, which\nleads to a segfault. In the inflated case, the object monitor is\ncorrectly derived to prevent the segfault.\n\nThis fix helps the LotsOfContendedMonitorEnter test in #20705.\n\nSigned-off-by: Babneet Singh <sbabneet@ca.ibm.com>",
+      "date": "2025-03-13T12:52:24Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "a85b6bb330437dd8baf33769e6f82f9181845e49",
+      "author": "Babneet Singh",
+      "message": "Correctly handle notify before wait for virtual threads\n\nIf a notify is issued before wait, then there waitingContinuations\nwill be NULL. In this case, the notify steps should not be executed\nsince there are no virtual threads waiting, and\nwaitingContinuations->vthread will be NULL.\n\nAddresses point 3 in the below Github comment:\nhttps://github.com/eclipse-openj9/openj9/issues/20369#issuecomment-2715488932.\n\nSigned-off-by: Babneet Singh <sbabneet@ca.ibm.com>",
+      "date": "2025-03-13T13:02:19Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: Thread, lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "7ec2c2d7b8018f030c5b5a87dba6b203079a3ecc",
+      "author": "Dmitri Pivkine",
+      "message": "Add -Xmx512m to -Xcheck:memory GC Regression tests\n\nLooks like -Xcheck:memory has a problem on x86 Mac platform preventing\nto run Balanced with enabled off-heap with default maximum heap size as\n25% of RAM available on machine failing with Native OOM. I guess it\nforces Sparce Heap to be allocated in the physical memory instead of be\nmostly virtual. Size of the heap is not significant for this particular\ntest, so it can be explicitly set to smaller value to avoid the problem.\nWe are going to investigate -Xcheck:memory behaviour on x86 Mac.",
+      "date": "2025-03-13T17:21:51Z",
+      "raw_score": 40,
+      "score": 22,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: lock",
+        "Changes affect critical area: db"
+      ]
+    },
+    {
+      "sha": "dc6a6f723cc3d33e86d076f072fb7dd1d88e3872",
+      "author": "Aleksandar Micic",
+      "message": "Exclude Balanced testing from FFI downcall\n\nThis is temporary till this tests works with Balanced Offheap\n\nSigned-off-by: Aleksandar Micic <Aleksandar_Micic@ca.ibm.com>",
+      "date": "2025-03-13T18:30:47Z",
+      "raw_score": 20,
+      "score": 11,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "e0c99c82ca24c59b8eaf2127bff5a8da5f334432",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21345 from dmitripivkine/master\n\nAdd -Xmx512m to -Xcheck:memory GC Regression tests",
+      "date": "2025-03-13T18:42:06Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: lock",
+        "Changes affect critical area: db",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "c06f0f9f558374199624e6d07f7a0665ac5bb9a8",
+      "author": "Peter Shipton",
+      "message": "Merge pull request #21347 from amicic/disable_ffi_downcall_offheap\n\nExclude Balanced testing from FFI downcall",
+      "date": "2025-03-13T18:56:56Z",
+      "raw_score": 20,
+      "score": 11,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Commit made at unusual hour: 18:00"
+      ]
+    },
+    {
+      "sha": "4a16811ab3ada0e1c66c1c9aeaa62779d49d58d4",
+      "author": "Nazim Bhuiyan",
+      "message": "Prevent callers of big callees getting marked as big during ECS\n\nDuring Estimate Code Size, if we came across a callee that\nexceeded the bigCalleeThreshold, we would mark every method\nabove the call chain as also too big. This would result in\nremoval of call targets above the callee marked too big. To\nget around this issue, we utilize the new field _bigCalleesSize\nthat is set when a callee exceeds the big callee threshold, and\nis used to adjust the analyzed size of the methods above the\nbig callee's level.\n\nCo-authored-by: Vijay Sundaresan <vijaysun@ca.ibm.com>\nSigned-off-by: Nazim Bhuiyan <nubhuiyan@ibm.com>",
+      "date": "2025-03-17T17:29:17Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "47e95704f006efdc8b5c7e9873381e2174714136",
+      "author": "Jason Feng",
+      "message": "JDK25 JavaLangAccess removed exit(int status)\n\nSigned-off-by: Jason Feng <fengj@ca.ibm.com>",
+      "date": "2025-03-18T11:33:02Z",
+      "raw_score": 30,
+      "score": 16,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "de7f64c6b180cdbd83b9c97bfcb468ddf5cb5c06",
+      "author": "Marius Pirvu",
+      "message": "Merge pull request #21364 from nbhuiyan/bigcalleesize\n\nPrevent callers of big callees getting marked as big during ECS",
+      "date": "2025-03-18T13:57:33Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: lock",
+        "Changes affect critical area: runtime",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "c2816e45d4cb491761a68f30bbadb5232a39b8b7",
+      "author": "Keith W. Campbell",
+      "message": "Merge pull request #21372 from JasonFengJ9/jdk25access\n\nJDK25 removed JavaLangAccess.exit(int status)",
+      "date": "2025-03-18T14:05:56Z",
+      "raw_score": 30,
+      "score": 16,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'spec' patterns",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "a9076368adb27a46ad3e67844296d9401991f080",
+      "author": "Hang Shao",
+      "message": "Add tests storing/setting extra startup hints with mprotect=all\n\nFor #21315\n\nSigned-off-by: Hang Shao <hangshao@ca.ibm.com>",
+      "date": "2025-03-19T14:22:39Z",
+      "raw_score": 25,
+      "score": 13,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: new "
+      ]
+    },
+    {
+      "sha": "f90fff3965b758ae340f3859033ccd26100b5bd7",
+      "author": "Jason Feng",
+      "message": "CRIU restores CRIUSupport(Path imageDir) constructor\n\nSupport the original CRIUSupport(Path imageDir) constructor API with a\nsingleton InternalCRIUSupport instance.\n\nSigned-off-by: Jason Feng <fengj@ca.ibm.com>",
+      "date": "2025-03-19T14:58:58Z",
+      "raw_score": 20,
+      "score": 11,
+      "category": "Safe",
+      "reasons": [
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "41d0f861d1ae7b420e967970c7fb8b979d4381ce",
+      "author": "Lan Xia",
+      "message": "Merge pull request #21398 from hangshao0/FixSCC\n\nAdd tests storing/setting extra startup hints with mprotect=all",
+      "date": "2025-03-19T15:41:56Z",
+      "raw_score": 25,
+      "score": 13,
+      "category": "Safe",
+      "reasons": [
+        "Changed code contains 'test' patterns",
+        "Code has risky patterns: new "
+      ]
+    },
+    {
+      "sha": "4e2a33ba932bb8dd854dd57a9a8bed0b822a9439",
+      "author": "Tobi",
+      "message": "Merge pull request #21401 from JasonFengJ9/criuinstance\n\nCRIU restores CRIUSupport(Path imageDir) constructor",
+      "date": "2025-03-19T17:26:19Z",
+      "raw_score": 20,
+      "score": 11,
+      "category": "Safe",
+      "reasons": [
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "0af7de5527a1f7f09f3e52859fc57f3d06e2aa45",
+      "author": "Gengchen Tuo",
+      "message": "Fix thread raw state format in dumps\n\nFixes https://github.com/eclipse-openj9/openj9/issues/21431\n\nSigned-off-by: Gengchen Tuo <gengchen.tuo@ibm.com>",
+      "date": "2025-03-20T14:44:58Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: core",
+        "Changes production code without updating tests"
+      ]
+    },
+    {
+      "sha": "9d6f392e27ddcfcfc71fdb192dd77a02ea17d448",
+      "author": "Tobi",
+      "message": "Merge pull request #21437 from thallium/threaddump\n\nFix thread raw state format in dumps",
+      "date": "2025-03-21T17:58:18Z",
+      "raw_score": 50,
+      "score": 27,
+      "category": "Safe",
+      "reasons": [
+        "Code has risky patterns: Thread",
+        "Changes affect critical area: core",
+        "Changes production code without updating tests"
+      ]
+    }
+  ]
+}

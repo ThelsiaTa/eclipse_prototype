@@ -1,0 +1,113 @@
+Problematic Commit Analysis Summary
+====================================
+
+Good Build: ffdf96d
+Bad Build: 9d6f392
+
+Test Failures: 1
+Failed Tests:
+- Issue Opened
+
+Total Commits Analyzed: 167
+Likely Problematic Commits: 121
+Safe Commits: 46
+
+Top Problematic Commits:
+
+1. SHA: f12ef363bdf96e4846ff4276fa3790c59b4f4925
+   Author: Peter Shipton
+   Score: 63 (Raw: 115)
+   Message: Revert "Implement JVM_GetProperties for jdk17+"
+   Reasons:
+   - Changed code contains 'test' patterns
+   - Code has risky patterns: Thread, lock
+   - Large change with 1823 lines modified
+   - Changes 22 different files
+   - Changes affect critical area: security
+   - Changes production code without updating tests
+   - Commit message lacks descriptive content
+   - Adds 135 new control structures (increased complexity)
+   - Commit made at unusual hour: 23:00
+
+2. SHA: 38a18d4270bec8080eae9131ecfd983473cbd02c
+   Author: Adrian Popescu
+   Score: 58 (Raw: 105)
+   Message: Add JFR monitor enter event
+
+This change adds support for the JFR monitor enter event.
+
+Signed-off-by: Adrian Popescu <adpopescu@ibm.com>
+   Reasons:
+   - Changed code contains 'assert' patterns
+   - Code has risky patterns: Thread, lock, atomic
+   - Large change with 190 lines modified
+   - Changes 8 different files
+   - Changes affect critical area: runtime
+   - Changes production code without updating tests
+   - Adds 10 new control structures (increased complexity)
+   - Commit made at unusual hour: 18:00
+
+3. SHA: 172a32eb3ff5033a69906f957b7baebbca72d543
+   Author: Jack Lu
+   Score: 58 (Raw: 105)
+   Message: Add basic yield pinned vthread support
+
+Update Continuation.Pinned enum
+Add field refs in vmconstantpool.xml
+add helper to update monitor info
+add enterObjectMonitor intercept
+Add support for Object.wait/notify()
+Add reverse link between J9VMContinuation and vthread & remove Object ref in J9ObjectMonitor
+Move JVM_TakeVirtualThreadListToUnblock code into helper
+Rename XX:YieldPinnedContinuation to XX:YieldPinnedVirtualThreads
+
+Co-authored-by: Jack Lu <Jack.S.Lu@ibm.com>
+Co-authored-by: Babneet Singh <sbabneet@ca.ibm.com>
+Co-authored-by: Keith W. Campbell <keithc@ca.ibm.com>
+   Reasons:
+   - Changed code contains 'spec' patterns
+   - Code has risky patterns: Thread, synchronize, concurrent, lock, atomic, volatile
+   - Large change with 784 lines modified
+   - Changes 16 different files
+   - Changes affect critical area: runtime
+   - Changes production code without updating tests
+   - Adds 73 new control structures (increased complexity)
+   - Commit made at unusual hour: 23:00
+
+4. SHA: 754bf6e642fac0d068d611f3f79bb74e6812f684
+   Author: Daryl Maier
+   Score: 58 (Raw: 105)
+   Message: Merge pull request #21218 from hzongaro/monenter-throws-IdentityExcept
+
+Throw IdentityException if operand of monent is a value type object
+   Reasons:
+   - Changed code contains 'test' patterns
+   - Code has risky patterns: Thread
+   - Large change with 200 lines modified
+   - Changes 16 different files
+   - Changes affect critical area: runtime
+   - Changes production code without updating tests
+   - Adds 6 new control structures (increased complexity)
+   - Commit made at unusual hour: 19:00
+
+5. SHA: 9620a5a7654118a6b379a8185281653d06b3fa80
+   Author: Peter Shipton
+   Score: 58 (Raw: 105)
+   Message: Implement JVM_GetProperties for jdk17+
+
+Related to https://github.com/eclipse-openj9/openj9/issues/21189
+
+Move the code, more or less unchanged, from the jcl to the
+vm so it can be called from multiple places. Remove unnecessary system
+props from jdk17+, they are added by SystemProps.initProperties().
+
+Signed-off-by: Peter Shipton <Peter_Shipton@ca.ibm.com>
+   Reasons:
+   - Changed code contains 'test' patterns
+   - Code has risky patterns: Thread, lock
+   - Large change with 1823 lines modified
+   - Changes 22 different files
+   - Changes affect critical area: security
+   - Changes production code without updating tests
+   - Adds 125 new control structures (increased complexity)
+   - Commit made at unusual hour: 20:00
